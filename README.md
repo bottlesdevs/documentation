@@ -4,6 +4,10 @@ description: Thanks for choosing Bottles for managing your wineprefixes on Linux
 
 # Welcome
 
+{% hint style="info" %}
+This documentation is still being written. Recommend us any improvements by clicking the GitHub icon at the top right of each page.
+{% endhint %}
+
 ## What is Bottles?
 
 Bottles is an application that allows you to easily manage wineprefixes on your favorite Linux distribution.
