@@ -16,4 +16,9 @@
 ## Utilities
 
 * [Logs & Debugger](utilities/logs-and-debugger.md)
+* [CMD](utilities/cmd.md)
+* [Winecfg](utilities/winecfg.md)
+* [Task manager](utilities/task-manager.md)
+* [Regedit](utilities/regedit.md)
+* [Uninstaller](utilities/uninstaller.md)
 
