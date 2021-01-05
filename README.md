@@ -22,7 +22,7 @@ In Bottles we call the wineprefixes, bottles. Because wine should theoretically 
 
 ## Where to start?
 
-Is simple. Start by [installing](installation.md) Bottles on your Linux distribution.
+Is simple. Start by [installing](getting-started/installation.md) Bottles on your Linux distribution.
 
 ## First run
 

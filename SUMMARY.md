@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Environments](environments.md)
-* [Installation](installation.md)
+
+## 📌 Getting started
+
+* [Installation](getting-started/installation.md)
+* [First run](getting-started/first-run.md)
+* [Environments](getting-started/environments.md)
 
