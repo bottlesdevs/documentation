@@ -7,7 +7,6 @@
 * [Installation](getting-started/installation.md)
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
-* [Experiments](getting-started/experiments.md)
 
 ## 🍷 Components
 
@@ -16,11 +15,15 @@
 
 ## 🍾 Bottles
 
-* [Preferences](bottles/preferences.md)
+* [App preferences](bottles/app-preferences.md)
+* [Bottle preferences](bottles/preferences.md)
 * [Dependencies](bottles/dependencies.md)
 * [Programs](bottles/programs.md)
 * [Installers](bottles/installers.md)
 * [Versioning](bottles/versioning.md)
+* [Backups](bottles/backups.md)
+* [Import from other managers](bottles/import-from-other-managers.md)
+* [Configuration files](bottles/configuration-files.md)
 
 ## 🔧 Utilities
 
