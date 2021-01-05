@@ -42,5 +42,5 @@ Other variables can be found from the [official repository](https://github.com/d
 DXVK_HUD='pipelines,gpuload,memory' DXVK_STATE_CACHE=0
 ```
 
-![Declare Environment Variables in bottle preferences.](../.gitbook/assets/screenshot-from-2021-01-05-19-53-00.png)
+![Set up Environment Variables in bottle preferences.](../.gitbook/assets/screenshot-from-2021-01-05-19-53-00.png)
 
