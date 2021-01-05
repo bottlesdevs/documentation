@@ -7,11 +7,20 @@
 * [Installation](getting-started/installation.md)
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
+* [Experiments](getting-started/experiments.md)
 
 ## 🍷 Components
 
 * [Runners](components/runners.md)
 * [DXVK](components/dxvk.md)
+
+## 🍾 Bottles
+
+* [Preferences](bottles/preferences.md)
+* [Dependencies](bottles/dependencies.md)
+* [Programs](bottles/programs.md)
+* [Installers](bottles/installers.md)
+* [Versioning](bottles/versioning.md)
 
 ## 🔧 Utilities
 
