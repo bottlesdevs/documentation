@@ -35,7 +35,11 @@ This environment enables dxvk by default, ensuring support for multimedia applic
 
 If you are a nerd \(even more nerd\) then this is the environment for you! 
 
-This is a clean environment where you can experiment, test and configure your bottle!
+This is a clean environment where you can experiment, test and configure your bottle! You can also choose the runner to use for your experiments, just install others from Bottles Preferences page.
 
-Pssst ...! If you enable the Experimental Features in Bottles preferences, you can try the versioning feature. This \(unstable at the moment, so expect bugs, spiders and monsters under the bed ..\) allows you to create versioned botles, keeping track of changes, creating restore points and obviously restoring to a previous state!
+Pssst ...! If you enable the Experimental Features in Bottles preferences page, you can try the versioning feature. This \(unstable at the moment, so expect bugs, spiders and monsters under the bed ..\) allows you to create versioned botles, keeping track of changes, creating restore points and obviously restoring to a previous state!
+
+## Environment preferences
+
+Regardless of the environment you choose, you can change your preferences at any time, enable/disable dxvk, esync, fsync, etc.
 
