@@ -10,7 +10,7 @@ We offer the following Environments:
 
 * **Gaming** for games
 * **Software** for.. software
-* **Custom** is just an clean space where you can start making experiments
+* **Custom** is just a clean space where you can start making experiments
 
 ![](.gitbook/assets/screenshot-from-2021-01-05-13-45-34.png)
 
