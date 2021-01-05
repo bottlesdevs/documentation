@@ -16,6 +16,7 @@
 ## 🍾 Bottles
 
 * [App preferences](bottles/app-preferences.md)
+* [Shortcuts](bottles/shortcuts.md)
 * [Bottle preferences](bottles/preferences.md)
 * [Dependencies](bottles/dependencies.md)
 * [Programs](bottles/programs.md)
