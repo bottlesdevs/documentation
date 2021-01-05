@@ -13,3 +13,7 @@
 * [Runners](components/runners.md)
 * [DXVK](components/dxvk.md)
 
+## Utilities
+
+* [Logs & Debugger](utilities/logs-and-debugger.md)
+
