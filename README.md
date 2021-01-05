@@ -26,11 +26,5 @@ Is simple. Start by [installing](getting-started/installation.md) Bottles on you
 
 ## First run
 
-At the first start you will be prompted to download a runner \(wine\) to be ready to create bottles.
-
-![First launch, runner installation.](.gitbook/assets/screenshot-9.png)
-
-Grab a drink and have a sit, Bottles will take care of everything.
-
-Once the download is finished \(it will take a few minutes, it is about 60 ~ 70MB\), you can create your first bottle by pressing the "+" button on the top left.
+Already installed? Let's go with the [first boot](getting-started/first-run.md) of Bottles!
 
