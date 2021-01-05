@@ -11,4 +11,5 @@
 ## 🔧 Components
 
 * [Runners](components/runners.md)
+* [DXVK](components/dxvk.md)
 
