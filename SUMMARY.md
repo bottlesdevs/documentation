@@ -8,3 +8,7 @@
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
 
+## 🔧 Components
+
+* [Runners](components/runners.md)
+
