@@ -8,12 +8,12 @@
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
 
-## 🔧 Components
+## 🍷 Components
 
 * [Runners](components/runners.md)
 * [DXVK](components/dxvk.md)
 
-## Utilities
+## 🔧 Utilities
 
 * [Logs & Debugger](utilities/logs-and-debugger.md)
 * [CMD](utilities/cmd.md)
