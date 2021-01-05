@@ -27,3 +27,13 @@ The Proton runner can be installed from the Bottles Preferences page and choosen
 We personally recommend using the Proton runner only in special cases where there is a patch for a specific video game. However, **Valve collaborates in the development of Wine** and many of the features integrated into Proton are also available in the latest versions of Wine.
 {% endhint %}
 
+## Runner updates
+
+You can install new runners in one click from Bottles Preferences.
+
+![Runners management from Bottles Preferences page.](../.gitbook/assets/screenshot-from-2021-01-05-18-58-16.png)
+
+If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of Wine, which may include greater software compatibility at the cost of bugs and possible regressions.
+
+![Enable Release Candidate from Runners preferences in the General tab.](../.gitbook/assets/screenshot-from-2021-01-05-19-36-11.png)
+

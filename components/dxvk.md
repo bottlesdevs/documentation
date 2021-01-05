@@ -23,5 +23,5 @@ When this component is enabled, a backup of the old dlls is created in the winep
 
 You can keep this component updated from Bottles preferences.
 
-![](../.gitbook/assets/screenshot-from-2021-01-05-19-30-20.png)
+![DXVK management from Bottles Preferences page.](../.gitbook/assets/screenshot-from-2021-01-05-19-30-20.png)
 
