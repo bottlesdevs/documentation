@@ -16,5 +16,11 @@ The wineprefixes are environments where it is possible to run Windows software t
 
 In Bottles we call the wineprefixes, bottles. Because wine should theoretically be in bottles.
 
+## Where to start?
+
+Is simple. Start by [installing](installation.md) Bottles on your Linux distribution.
+
+
+
 
 
