@@ -25,3 +25,22 @@ You can keep this component updated from Bottles preferences.
 
 ![DXVK management from Bottles Preferences page.](../.gitbook/assets/screenshot-from-2021-01-05-19-30-20.png)
 
+## Environment variables
+
+DXVK came with a large number of environment variables to better configure it.
+
+{% hint style="warning" %}
+If you don't know what we're talking about, don't touch anything. Bottles preconfigure those that are essential for correct operation.
+{% endhint %}
+
+* `DXVK_STATE_CACHE_PATH` is preconfigured and points to the root path of the bottle
+* `DXVK` is preconfigured to `compiler` otherwise is set to `devinfo, memory, drawcalls, fps, version, api, compiler` if enabled from the settings for Developers and Debug in the bottle
+
+Other variables can be found from the [official repository](https://github.com/doitsujin/dxvk/#hud) and can be set using the Environment Variables field in the bottle preferences, like this:
+
+```text
+DXVK_HUD='pipelines,gpuload,memory' DXVK_STATE_CACHE=0
+```
+
+![Declare Environment Variables in bottle preferences.](../.gitbook/assets/screenshot-from-2021-01-05-19-53-00.png)
+
