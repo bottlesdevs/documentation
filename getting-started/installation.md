@@ -24,7 +24,19 @@ At the first launch, Bottles asks you if you want to install the AppImage, this 
 
 #### Flathub
 
-We have requested to join the Flathub online repository. More info [here](https://github.com/flathub/flathub/pull/2022). When our request is accepted, we will update this page with the installation steps.
+Ensure the flathub repository is active:
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+Then install Bottles with:
+
+```bash
+flatpak install com.usebottles.bottles
+```
+
+Or, if your package manager supports flathub links, [click here](https://dl.flathub.org/repo/appstream/com.usebottles.bottles.flatpakref).
 
 #### Manual build flatpak
 
