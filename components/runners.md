@@ -13,7 +13,10 @@ There are two types of runners in Bottles:
 * Wine
 * Proton
 
-The **Wine** runner \(right now it is wine-staging compiled by the [Lutris team](https://github.com/lutris/wine)\) is our favorite runner, it is used for all Environments and is therefore in all bottles created, but also for bottles imported into Bottles.
+The **Wine** runner is our favorite runner, it is used for all Environments and is therefore in all bottles created, but also for wineprefixes imported into Bottles. We offer 2 different builds:
+
+* [chardonnay](https://github.com/bottlesdevs/wine) \(our runner, available by default in Bottles v3\)
+* lutris
 
 Includes patches from wine-staging and lutris, which increases support for compatible Windows applications.
 
