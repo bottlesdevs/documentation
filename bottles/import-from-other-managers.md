@@ -4,10 +4,6 @@ description: You can import wineprefixes from other third party managers.
 
 # Import from other managers
 
-{% hint style="warning" %}
-Page under construction.
-{% endhint %}
-
 ## Import from other managers
 
 Currently we support migration from these applications:
