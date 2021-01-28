@@ -4,7 +4,7 @@
 
 First you need to download the latest release from our [website](https://usebottles.com/download) then, set executable permission to the `.AppImage` file:
 
-```
+```text
 chmod +x Bottles-*-x86_64.AppImage
 ```
 
@@ -24,7 +24,17 @@ At the first launch, Bottles asks you if you want to install the AppImage, this 
 
 #### Flathub
 
+You can find bottles on the [official Flathub page](https://flathub.org/apps/details/com.usebottles.bottles)
+
 Ensure the flathub repository is active:
+
+You can install bottles with a simple command:
+
+```bash
+flatpak install flathub com.usebottles.bottles
+```
+
+After this you can find the bottles icon in your menu or in your applications.
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
