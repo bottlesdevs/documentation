@@ -14,12 +14,6 @@ Move the file to a safe path where there is no risk of deleting them and double 
 ./Bottles-*-x86_64.AppImage
 ```
 
-#### Install the Appimage
-
-At the first launch, Bottles asks you if you want to install the AppImage, this will make it available in the applications menu of the Desktop Environment in use:
-
-![](../.gitbook/assets/screenshot-from-2021-01-05-11-43-48.png)
-
 ### Flatpak
 
 #### Flathub
@@ -76,6 +70,32 @@ Then run using `flatpak` command:
 
 ```bash
 flatpak run com.usebottles.bottles
+```
+
+### Snap
+
+#### Manual build snap
+
+Download the latest bottles source from GitHub:
+
+```bash
+wgen -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/master.zip
+unzip bottles-source.zip
+cd bottles-source
+```
+
+Install snapcraft, e.g. on Ubuntu 20.04+:
+
+```bash
+apt install snapcraft
+```
+
+then build, install \(using the `--dangerous` option to skip the checksum\) and run:
+
+```bash
+snapcraft
+snap install bottles*.snap --dangerous
+snap run bottles
 ```
 
 ### Unofficial packages
