@@ -16,6 +16,10 @@ Move the file to a safe path where there is no risk of deleting them and double 
 
 ### Snap
 
+#### Snapcraft
+
+ [![](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/bottles)
+
 #### Manual build snap
 
 Download the latest bottles source from GitHub:
