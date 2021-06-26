@@ -14,35 +14,64 @@ Move the file to a safe path where there is no risk of deleting them and double 
 ./Bottles-*-x86_64.AppImage
 ```
 
+### Snap
+
+#### Manual build snap
+
+Download the latest bottles source from GitHub:
+
+```bash
+wgen -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/master.zip
+unzip bottles-source.zip
+cd bottles-source
+```
+
+Install snapcraft, e.g. on Ubuntu 20.04+:
+
+```bash
+apt install snapcraft
+```
+
+then build, install \(using the `--dangerous` option to skip the checksum\) and run:
+
+```bash
+snapcraft
+snap install bottles*.snap --dangerous
+snap run bottles
+```
+
+### AUR
+
+Bottles is available on AUR with 2 different packages:
+
+* `bottles` provide the latest stable build
+* `bottles-git` the latest commit from the GitHub repository
+
+You can install using your preferred AUR helper, like `yay`:
+
+```bash
+yay -S bottles
+```
+
+or `paru`:
+
+```bash
+paru -S bottles
+```
+
 ### Flatpak
 
-#### Flathub
-
-You can find bottles on the [official Flathub page](https://flathub.org/apps/details/com.usebottles.bottles)
-
-Ensure the flathub repository is active:
-
-You can install bottles with a simple command:
-
-```bash
-flatpak install flathub com.usebottles.bottles
-```
-
-After this you can find the bottles icon in your menu or in your applications.
-
-```bash
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-Then install Bottles with:
-
-```bash
-flatpak install com.usebottles.bottles
-```
+{% hint style="danger" %}
+Bottles left Flathub \(and any other Flatpak repository\) as of June 20, 2021. [Read more.](https://mirko.pm/blog/bottles-will-leave-flatpak/)
+{% endhint %}
 
 Or, if your package manager supports flathub links, [click here](https://dl.flathub.org/repo/appstream/com.usebottles.bottles.flatpakref).
 
 #### Manual build flatpak
+
+{% hint style="warning" %}
+Although we offer instructions for building the Flatpak, please note that we do not give official support for this installation method.
+{% endhint %}
 
 We need the following dependencies:
 
@@ -70,32 +99,6 @@ Then run using `flatpak` command:
 
 ```bash
 flatpak run com.usebottles.bottles
-```
-
-### Snap
-
-#### Manual build snap
-
-Download the latest bottles source from GitHub:
-
-```bash
-wgen -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/master.zip
-unzip bottles-source.zip
-cd bottles-source
-```
-
-Install snapcraft, e.g. on Ubuntu 20.04+:
-
-```bash
-apt install snapcraft
-```
-
-then build, install \(using the `--dangerous` option to skip the checksum\) and run:
-
-```bash
-snapcraft
-snap install bottles*.snap --dangerous
-snap run bottles
 ```
 
 ### Unofficial packages
