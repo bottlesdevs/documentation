@@ -72,8 +72,6 @@ makepkg -si
 Bottles left Flathub \(and any other Flatpak repository\) as of June 20, 2021. [Read more.](https://mirko.pm/blog/bottles-will-leave-flatpak/)
 {% endhint %}
 
-Or, if your package manager supports flathub links, [click here](https://dl.flathub.org/repo/appstream/com.usebottles.bottles.flatpakref).
-
 #### Manual build flatpak
 
 {% hint style="warning" %}
