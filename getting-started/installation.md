@@ -47,16 +47,19 @@ Bottles is available on AUR with 2 different packages:
 * `bottles` provide the latest stable build
 * `bottles-git` the latest commit from the GitHub repository
 
-You can install using your preferred AUR helper, like `yay`:
+You can install using your preferred AUR helper:
 
 ```bash
 yay -S bottles
+paru -S bottles
 ```
 
-or `paru`:
+or manually:
 
 ```bash
-paru -S bottles
+git clone https://aur.archlinux.org/packages/bottles
+cd bottles-git
+makepkg -si
 ```
 
 ### Flatpak
@@ -105,33 +108,12 @@ flatpak run com.usebottles.bottles
 
 Our community provides non-official packages for installing Bottles on some distributions.
 
-#### Arch Linux
+#### Fedora
 
-There are two packages from AUR for Arch Linux:
-
-* [bottles-git](https://aur.archlinux.org/packages/bottles-git) \(which offers the latest version from our git repository\)
-* [bottles](https://aur.archlinux.org/packages/bottles) \(which should be the latest stable version\)
-
-To install one of these packages use an AUR helper like `yay` or `paru`:
+Bottles is available on Fedora [repositories](https://src.fedoraproject.org/rpms/bottles) thanks to [@atim](https://src.fedoraproject.org/user/atim) so you can install using `dnf`:
 
 ```bash
-yay -S bottles-git
-```
-
-or manually using `makepkg`:
-
-```bash
-git clone https://aur.archlinux.org/packages/bottles-git
-cd bottles-git
-makepkg -si
-```
-
-#### Fedora & Open suse \(Tumbleweed\)
-
-The latest `rpm` package ca be found in [this](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE_Tumbleweed/x86_64/) repository and can be installed double clicking on it \(in most distributions\) or by terminal using the `rpm` command:
-
-```bash
-$ rpm -i package_name.rpm
+$ dnf install bottles
 ```
 
 ### Build from source
