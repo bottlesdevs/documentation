@@ -2,6 +2,10 @@
 
 ## Using the AppImage
 
+{% hint style="info" %}
+This is the most tested and updated version ever.
+{% endhint %}
+
 First you need to download the latest release from our [website](https://usebottles.com/download) then, set executable permission to the `.AppImage` file:
 
 ```text
@@ -68,15 +72,17 @@ makepkg -si
 
 ### Flatpak
 
-{% hint style="danger" %}
-Bottles left Flathub \(and any other Flatpak repository\) as of June 20, 2021. [Read more.](https://mirko.pm/blog/bottles-will-leave-flatpak/)
-{% endhint %}
+#### Flathub
+
+This package receives a total of 2 monthly updates, scheduled on the 14th and 28th of each month \(but may vary in case of mainline release delays\).
+
+[![Download on Flathub](https://flathub.org/assets/badges/flathub-badge-en.png)](https://flathub.org/apps/details/com.usebottles.bottles)
+
+#### Beta
+
+Bottles Flatpak also provide a [Beta](https://github.com/flathub/com.usebottles.bottles/tree/beta) channel for testing purpose.
 
 #### Manual build flatpak
-
-{% hint style="warning" %}
-Although we offer instructions for building the Flatpak, please note that we do not give official support for this installation method.
-{% endhint %}
 
 We need the following dependencies:
 
