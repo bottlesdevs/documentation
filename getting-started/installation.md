@@ -74,7 +74,9 @@ makepkg -si
 
 #### Flathub
 
-This package receives a total of 2 monthly updates, scheduled on the 14th and 28th of each month \(but may vary in case of mainline release delays\).
+{% hint style="info" %}
+This package receives a total of **2 monthly updates**, scheduled on the **14th** and **28th** of each month \(but may vary in case of mainline release delays\).
+{% endhint %}
 
 [![Download on Flathub](https://flathub.org/assets/badges/flathub-badge-en.png)](https://flathub.org/apps/details/com.usebottles.bottles)
 
