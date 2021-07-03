@@ -12,7 +12,7 @@ We offer the following Environments:
 * **Software** for.. software
 * **Custom** is just a clean space where you can start making experiments
 
-![Environment selection.](../.gitbook/assets/screenshot-from-2021-01-05-13-45-34.png)
+![Environment selection](../.gitbook/assets/image%20%285%29.png)
 
 {% hint style="info" %}
 Bottles dependency support is still young, at the moment the Environments do not install dependencies but you can do it yourself from the Dependencies tab in the detail of your bottle.
