@@ -34,11 +34,11 @@ We personally recommend using the Proton runner only in special cases where ther
 
 You can install new runners by clicking the download button next the runner of your interest.
 
-![Runners management from Bottles preferences](../.gitbook/assets/image%20%2817%29.png)
+![Runners management from Bottles preferences](../.gitbook/assets/image%20%2818%29.png)
 
 If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of Wine, which may include greater software compatibility at the cost of bugs and possible regressions.
 
-![Pre-release](../.gitbook/assets/image%20%2815%29.png)
+![Pre-release](../.gitbook/assets/image%20%2816%29.png)
 
 ### How to add unlisted runners?
 

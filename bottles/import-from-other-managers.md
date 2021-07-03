@@ -14,7 +14,7 @@ Currently we support migration from these applications:
 
 ### How to import
 
-Access the bottles menu and select "Importer"
+Access the bottles menu and select "Import and export", then click on the circle arrow to list the available imports.
 
-![](../.gitbook/assets/screenshot-from-2021-01-07-20-49-15.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
