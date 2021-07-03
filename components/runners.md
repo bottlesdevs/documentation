@@ -32,11 +32,17 @@ We personally recommend using the Proton runner only in special cases where ther
 
 ## Runner updates
 
-You can install new runners in one click from Bottles Preferences.
+You can install new runners by clicking the download button next the runner of your interest.
 
-![Runners management from Bottles Preferences page.](../.gitbook/assets/screenshot-from-2021-01-05-18-58-16.png)
+![Runners management from Bottles preferences](../.gitbook/assets/image%20%2815%29.png)
 
 If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of Wine, which may include greater software compatibility at the cost of bugs and possible regressions.
 
-![Enable Release Candidate from Runners preferences in the General tab.](../.gitbook/assets/screenshot-from-2021-01-05-19-36-11.png)
+![Pre-release](../.gitbook/assets/image%20%2814%29.png)
+
+### How to add unlisted runners?
+
+Runners are installed via a community-driven Bottles [repository](https://github.com/bottlesdevs/components).
+
+If the runner you are looking for is not present, you can add it yourself by opening a Pull Request in the repository, [providing the runner manifest](https://github.com/bottlesdevs/components/blob/main/README.md#how-to-contribute).
 

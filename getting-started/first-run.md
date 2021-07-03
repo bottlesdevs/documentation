@@ -6,7 +6,7 @@ description: Your first experience with Bottles starts here.
 
 At the first start you will be shown the Onboard, which is a wizard that will explain some concepts and help you configure Bottles.
 
-![Bottles Onboard](../.gitbook/assets/image%20%2812%29.png)
+![Bottles Onboard](../.gitbook/assets/image%20%2813%29.png)
 
 Once the key concepts of Bottles have been introduced, a runner \(~ 70MB\) will be downloaded, which is necessary for creating your bottles.
 
@@ -14,7 +14,7 @@ Once the key concepts of Bottles have been introduced, a runner \(~ 70MB\) will 
 We cannot offer these files with Bottles as these have different release cycles.
 {% endhint %}
 
-![Downloading the first runner](../.gitbook/assets/image%20%2811%29.png)
+![Downloading the first runner](../.gitbook/assets/image%20%2812%29.png)
 
 This is a one time operation, you can use the same runner for all your bottles or install others from the Bottles preferences.
 
