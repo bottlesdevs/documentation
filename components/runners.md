@@ -1,7 +1,7 @@
 ---
 description: >-
   Runners are the heart of Bottles. They allow the execution of Windows software
-  and the creation of wineprefixes.
+  on Linux systems.
 ---
 
 # Runners
@@ -13,12 +13,13 @@ There are two types of runners in Bottles:
 * Wine
 * Proton
 
-The **Wine** runner is our favorite runner, it is used for all Environments and is therefore in all bottles created, but also for wineprefixes imported into Bottles. We offer 2 different builds:
+The **Wine** runner is used for all Environments and is therefore in all bottles created, but also for external prefixes imported into Bottles. We support 3 different runners:
 
-* [chardonnay](https://github.com/bottlesdevs/wine) \(our runner, available by default in Bottles v3\)
-* lutris
+* [Vaniglia](https://github.com/bottlesdevs/wine) \(our runner, available by default in Bottles v3\)
+* Lutris \(from Lutris Developers\)
+* Proton-GE \(from [GloriousEggroll](https://github.com/GloriousEggroll)\)
 
-Includes patches from wine-staging and lutris, which increases support for compatible Windows applications.
+**Vaniglia** \(Vanilla\) is a clean runner as its name suggests. Apply only wine-staging patches and a modern theme created by Joshua Ashton.
 
 The **Proton** runner \(developed by [Valve](https://github.com/ValveSoftware/Proton) and improved/offered by [GloriousEggroll](https://github.com/GloriousEggroll/proton-ge-custom) in the GE custom version\) is a much more complex version of Wine and is suitable for the most modern games.
 
@@ -36,7 +37,7 @@ You can install new runners by clicking the download button next the runner of y
 
 ![Runners management from Bottles preferences](../.gitbook/assets/image%20%2818%29.png)
 
-If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of Wine, which may include greater software compatibility at the cost of bugs and possible regressions.
+If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of runners, which may include greater software compatibility at the cost of bugs and possible regressions.
 
 ![Pre-release](../.gitbook/assets/image%20%2816%29.png)
 

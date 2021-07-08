@@ -10,15 +10,13 @@ This documentation is still being written. Recommend us any improvements by clic
 
 ## What is Bottles?
 
-Bottles is an application that allows you to easily manage wineprefixes on your favorite Linux distribution.
+Bottles is an application that allows you to easily manage windows prefixes on your favorite Linux distribution.
 
-## Wineprefixes? Are you drunk?
+## Windows prefixes?
 
-No it's not about wine and Yes, we're drunk. We always are.
+Windows prefixes are environments where it is possible to run Windows software using runners. Runners are compatibility layers capable of running Windows applications on Linux systems. 
 
-The wineprefixes are environments where it is possible to run Windows software thanks to Wine. [Wine](https://www.winehq.org) is a compatibility layer capable of running Windows applications.
-
-In Bottles we call the wineprefixes, bottles. Because wine should theoretically be in bottles.
+In Bottles we call the these environments, bottles.
 
 ## Where to start?
 
