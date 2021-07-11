@@ -22,7 +22,8 @@ Bottles dependency support is still young, at the moment the Environments do not
 
 This environment comes with the following configuration:
 
-* dxvk enabled
+* DXVK enabled
+* VKD3D enabled
 * Esync enabled
 * Discrete Graphics Card enabled \(useful for laptops with hybrid graphics setup\)
 * PulseAudio latency forced to 60ms for better audio quality in-game
