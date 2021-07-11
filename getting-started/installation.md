@@ -18,6 +18,12 @@ Move the file to a safe path where there is no risk of deleting them and double 
 ./Bottles-*-x86_64.AppImage
 ```
 
+#### ..or using [zap](https://github.com/srevinsaju/zap)⚡!
+
+```bash
+zap install bottles
+```
+
 ### Snap
 
 #### Snapcraft
