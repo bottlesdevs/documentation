@@ -30,7 +30,7 @@ This environment comes with the following configuration:
 
 ### Software environment
 
-This environment enables dxvk by default, ensuring support for multimedia applications \(such as 3D modeling, Video Edting and drawing programs\) but also office and productivity software.
+This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications \(such as 3D modeling, Video Edting and drawing programs\) but also office and productivity software.
 
 ### Custom environment
 
