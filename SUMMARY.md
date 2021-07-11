@@ -13,7 +13,7 @@
 * [Runners](components/runners.md)
 * [DXVK](components/dxvk.md)
 
-## 🍾 Bottles
+## 🔳 Bottles
 
 * [App preferences](bottles/app-preferences.md)
 * [Shortcuts](bottles/shortcuts.md)
