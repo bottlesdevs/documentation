@@ -39,7 +39,7 @@ You can install new runners by clicking the download button next the runner of y
 
 If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of runners, which may include greater software compatibility at the cost of bugs and possible regressions.
 
-![Preferences - Runners \(Pre-release\)](../.gitbook/assets/image%20%2829%29.png)
+![Preferences - Runners \(Pre-release\)](../.gitbook/assets/image%20%2830%29.png)
 
 ### How to add unlisted runners?
 

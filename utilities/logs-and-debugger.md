@@ -58,7 +58,7 @@ The Wine debugger allows us to access the backtrace of a crashed or frozen proce
 
 First run a Windows executable file in your bottle, then launch `winedbg` using the **Debug** voice in the Utility section from your bottle details.
 
-![Bottle - Wine Debugger](../.gitbook/assets/image%20%2828%29.png)
+![Bottle - Wine Debugger](../.gitbook/assets/image%20%2829%29.png)
 
 The system Terminal will run with `winedbg` running inside your bottle.
 

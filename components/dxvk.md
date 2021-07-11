@@ -19,6 +19,10 @@ You can check its activation from the bottle preferences, checking the "DXVK for
 
 When this component is enabled, a backup of the old dlls is created in the wineprefix and automatically recovered when disabled.
 
+To manually activate it in any bottle, simply enable the switcher from the bottle preferences.
+
+![Bottle - Preferences - DXVK](../.gitbook/assets/image%20%2827%29.png)
+
 ## DXVK updates
 
 You can keep this component updated from Bottles preferences.
