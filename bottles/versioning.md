@@ -44,7 +44,7 @@ Each state requires a comment during creation \(it will be used to recognize it 
 
 The currently active state is highlighted in purple.
 
-![Versioning - Active state](../.gitbook/assets/image%20%2821%29.png)
+![Versioning - Active state](../.gitbook/assets/image%20%2825%29.png)
 
 To restore a state it is necessary to press the icon with the clock to the right of the desired state.
 
@@ -52,7 +52,7 @@ To restore a state it is necessary to press the icon with the clock to the right
 
 The Versioning functionality is experimental and must be manually enabled from Bottles preferences \(Preferences -&gt; Experiments -&gt; Versioning\).
 
-![Experiments](../.gitbook/assets/image%20%2820%29.png)
+![Experiments](../.gitbook/assets/image%20%2823%29.png)
 
 ### How to use versioning
 
@@ -70,7 +70,7 @@ In this way, a restore point will be created as soon as the bottle is created an
 
 Versioning can be enabled for any existing bottle by simply selecting the Versioning item in the bottle details and creating a new state that will be used as the bottle's initial index.
 
-![Versioning - First state](../.gitbook/assets/image%20%2819%29.png)
+![Versioning - First state](../.gitbook/assets/image%20%2821%29.png)
 
 We can understand if versioning on a bottle is active, through the purple icon in the bottle list and in the detail of the same, this also shows the number of the current state.
 
