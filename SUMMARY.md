@@ -7,7 +7,6 @@
 * [Installation](getting-started/installation.md)
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
-* [Migrate bottles to Flatpak](getting-started/migrate-bottles-to-flatpak.md)
 
 ## 🍷 Components
 
