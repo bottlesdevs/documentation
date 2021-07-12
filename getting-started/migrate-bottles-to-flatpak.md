@@ -14,11 +14,7 @@ The other packages save the essential Bottles files, such as components, temps, 
 
 #### Migrate old bottles to Flatpak
 
-In Bottles version **2021.07.14**, we have introduced an automatic bottle migration process that appears on first launch. This process **will be removed from version 2021.07.28** and you will need to proceed manually from that point on.
-
-**Manual migration**
-
-Manual migration is as simple as it sounds - just move the content of the path `~/.local/share/bottles` to the new one `~/.var/app/com.usebottles.bottles/data/bottles`.
+The migration is simple as it sounds - just move the content of the path `~/.local/share/bottles` to the new one `~/.var/app/com.usebottles.bottles/data/bottles`.
 
 Restart Bottles and that's it.
 
