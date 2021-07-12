@@ -2,9 +2,9 @@
 description: The Flatpak package uses a different path for storing bottles.
 ---
 
-# Migrate bottles to FLatpak
+# Migrate directories to Flatpak
 
-## Migrate bottles to Flatpak
+## Migrate to Flatpak
 
 In recent versions of the Flatpak and, the bottles are saved in a different location than the other packages, respecting the structure of the Flatpak package.
 
