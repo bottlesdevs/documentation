@@ -36,3 +36,7 @@
 * [Regedit](utilities/regedit.md)
 * [Uninstaller](utilities/uninstaller.md)
 
+## 🎩 Contribute
+
+* [Missing dependencies](contribute/missing-dependencies.md)
+
