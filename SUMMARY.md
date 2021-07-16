@@ -17,6 +17,7 @@
 ## 🔳 Bottles
 
 * [App preferences](bottles/app-preferences.md)
+* [Run .exe/.msi/.bat/.lnk files](bottles/run-.exe-.msi-.bat-.lnk-files.md)
 * [Shortcuts](bottles/shortcuts.md)
 * [Bottle preferences](bottles/preferences.md)
 * [Dependencies](bottles/dependencies.md)
