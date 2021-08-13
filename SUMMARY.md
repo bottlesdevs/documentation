@@ -24,7 +24,7 @@
 * [Programs](bottles/programs.md)
 * [Installers](bottles/installers.md)
 * [Versioning](bottles/versioning.md)
-* [Backups](bottles/backups.md)
+* [Backups & Duplicate](bottles/backups.md)
 * [Import from other managers](bottles/import-from-other-managers.md)
 * [Configuration files](bottles/configuration-files.md)
 
