@@ -7,7 +7,6 @@
 * [Installation](getting-started/installation.md)
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
-* [Migrate directories to Flatpak](getting-started/migrate-bottles-to-flatpak.md)
 
 ## 🍷 Components
 
@@ -40,4 +39,9 @@
 ## 🎩 Contribute
 
 * [Missing dependencies](contribute/missing-dependencies.md)
+
+## Flatpak
+
+* [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
+* [Expose directories](flatpak/expose-directories.md)
 
