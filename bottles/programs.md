@@ -32,6 +32,14 @@ A field will appear where you can enter the arguments of the executable, once do
 
 ![Bottles - Programs - Launch Options](../.gitbook/assets/image%20%2835%29.png)
 
+#### Prefix and suffix in launch options
+
+The `%command%` placeholder can be used in the Launch Options to customize prefixes and suffixes:
+
+```bash
+my_command %command% -flag1 -flag2
+```
+
 #### The program does not appear
 
 If the program does not appear in the list even after the Refresh, it may be that it is installed in a path not monitored by Bottles. [Open an issue](https://github.com/bottlesdevs/Bottles/issues/new/choose) so that we can identify the path and add it to the list of directories.
