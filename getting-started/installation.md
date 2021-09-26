@@ -157,18 +157,32 @@ flatpak run com.usebottles.bottles
 
 Our community provides non-official packages for installing Bottles on some distributions.
 
-#### Fedora
-
+{% tabs %}
+{% tab title="Fedora" %}
 Bottles is available on Fedora [repositories](https://src.fedoraproject.org/rpms/bottles) thanks to [@atim](https://src.fedoraproject.org/user/atim) so you can install using `dnf`:
 
 ```bash
 $ dnf install bottles
 ```
+{% endtab %}
 
-### Build from source
+{% tab title="Void linux" %}
+Bottles will be available soon on Void Linux thanks to [@andry-dev](https://github.com/andry-dev). Read more [here](https://github.com/void-linux/void-packages/pull/27066).
+{% endtab %}
 
-You can also build Bottles from source.
+{% tab title="NixOS" %}
+Bottles is available on NixOS [repositories](https://search.nixos.org/packages?channel=21.05&show=bottles&from=0&size=50&sort=relevance&type=packages&query=bottles) thanks to [@bloomvdomino](https://github.com/bloomvdomino) so you can install it using `nix-env`:
 
+```bash
+nix-env -iA nixos.bottles
+```
+{% endtab %}
+
+{% tab title="Tumbleweed" %}
+The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE_Tumbleweed/x86_64/) for openSUSE Tumbleweed is no more maintained. Feel free to port it again, contact us to list it here.
+{% endtab %}
+
+{% tab title="Build from source" %}
 Requirements:
 
 * meson
@@ -193,4 +207,6 @@ meson build && cd build
 ninja -j$(nproc)
 $ ninja install
 ```
+{% endtab %}
+{% endtabs %}
 
