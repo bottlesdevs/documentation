@@ -1,11 +1,25 @@
+---
+description: 'We offer Bottles in different packages, make your choice!'
+---
+
 # Installation
 
-## Using the AppImage
+Bottles is officially provided as AppImage, Flatpak, Snap, AUR, deb package. There are also other packages maintained by our community, like Fedora and AUR \(bottles-git\).
 
-{% hint style="info" %}
-This is the most tested and updated version ever.
-{% endhint %}
+### AppImage
 
+This is the most tested and updated version ever. It is a portable package that should works on every distribution.
+
+{% tabs %}
+{% tab title="zap⚡" %}
+First [install zap](https://github.com/srevinsaju/zap#getting-started-), then:
+
+```bash
+zap install bottles
+```
+{% endtab %}
+
+{% tab title="Traditional way" %}
 First you need to download the latest release from our [website](https://usebottles.com/download) then, set executable permission to the `.AppImage` file:
 
 ```text
@@ -17,21 +31,19 @@ Move the file to a safe path where there is no risk of deleting them and double 
 ```bash
 ./Bottles-*-x86_64.AppImage
 ```
-
-#### ..or using [zap](https://github.com/srevinsaju/zap)⚡!
-
-```bash
-zap install bottles
-```
+{% endtab %}
+{% endtabs %}
 
 ### Snap
 
-#### Snapcraft
+{% tabs %}
+{% tab title="Snapcraft" %}
+Just press the following button to install it from the Snapcraft store.
 
  [![](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/bottles)
+{% endtab %}
 
-#### Manual build snap
-
+{% tab title="Manual build" %}
 Download the latest bottles source from GitHub:
 
 ```bash
@@ -53,45 +65,64 @@ snapcraft
 snap install bottles*.snap --dangerous
 snap run bottles
 ```
+{% endtab %}
+{% endtabs %}
 
-### AUR
+#### AUR
 
 Bottles is available on AUR with 2 different packages:
 
 * `bottles` provide the latest stable build
 * `bottles-git` the latest commit from the GitHub repository
 
-You can install using your preferred AUR helper:
+{% tabs %}
+{% tab title="AUR helper" %}
+Bottles can be installed using an AUR helper like `yay` or `paru`:
 
 ```bash
-yay -S bottles
-paru -S bottles
+yay -S bottles # or bottles-git
+paru -S bottles # or bottles-git
 ```
+{% endtab %}
 
-or manually:
-
+{% tab title="Traditional way" %}
 ```bash
-git clone https://aur.archlinux.org/packages/bottles
-cd bottles-git
+git clone https://aur.archlinux.org/packages/bottles # or bottles-git
+cd bottles # or bottles-git
 makepkg -si
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Flatpak
 
-#### Flathub
+This is the only full-sandboxed version. It bundle all the needed dependencies and tools and works an all distributions [supported by Flatpak](https://flatpak.org/setup/).
 
-{% hint style="info" %}
-This package receives a total of **2 monthly updates**, scheduled on the **14th** and **28th** of each month \(but may vary in case of mainline release delays\).
-{% endhint %}
+{% tabs %}
+{% tab title="Flathub" %}
+Just press the button below:
 
 [![Download on Flathub](https://flathub.org/assets/badges/flathub-badge-en.png)](https://flathub.org/apps/details/com.usebottles.bottles)
+{% endtab %}
 
-#### Beta
+{% tab title="Beta" %}
+Bottles Flatpak also provide a [Beta](https://github.com/flathub/com.usebottles.bottles/tree/beta) channel for testing purpose, maintained by our community.  
+  
+1. Add the Flathub beta remote:
 
-Bottles Flatpak also provide a [Beta](https://github.com/flathub/com.usebottles.bottles/tree/beta) channel for testing purpose.
+```bash
+flatpak remote-add --user flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak update --appstream
+```
 
-#### Manual build flatpak
+2. Then install Bottles:
 
+```bash
+flatpak install --user flathub-beta com.usebottles.bottles
+```
+{% endtab %}
+
+{% tab title="Manual build" %}
 We need the following dependencies:
 
 * org.gnome.Sdk
@@ -119,8 +150,10 @@ Then run using `flatpak` command:
 ```bash
 flatpak run com.usebottles.bottles
 ```
+{% endtab %}
+{% endtabs %}
 
-### Unofficial packages
+### Other packages
 
 Our community provides non-official packages for installing Bottles on some distributions.
 
