@@ -45,3 +45,8 @@
 * [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
 * [Expose directories](flatpak/expose-directories.md)
 
+## FAQ
+
+* [Why Bottles?](faq/why-bottles.md)
+* [Untitled](faq/untitled.md)
+
