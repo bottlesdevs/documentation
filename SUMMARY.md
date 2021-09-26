@@ -48,5 +48,5 @@
 ## FAQ
 
 * [Why Bottles?](faq/why-bottles.md)
-* [Where is Winetricks?](faq/untitled.md)
+* [Where is Winetricks?](faq/where-is-winetricks.md)
 
