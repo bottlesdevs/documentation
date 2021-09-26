@@ -6,6 +6,8 @@ In v2 we have chosen to adopt our dependency system instead of the usual Winetri
 
 Dependencies on Bottles are like package dependencies on almost all Linux distributions. Software may require dependencies in order to run and these can be downloaded and installed manually or via our dependency manager who will take care of everything \(because each dependency can depend on other dependencies\).
 
+Read more about, [here](https://docs.usebottles.com/bottles/dependencies).
+
 ### Why not Winetricks?
 
 We want to offer a centralized dependency management system. We want to be able to trace those installed in the bottle configuration file to be able to remove them or simply share the bottle with all dependencies listed.
