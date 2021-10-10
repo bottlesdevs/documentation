@@ -43,13 +43,14 @@
 ## Flatpak
 
 * [Page 1](flatpak/page-1.md)
-* [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak/README.md)
+* [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
   * [Page 1](flatpak/migrate-bottles-to-flatpak/page-1.md)
 * [Page 1](flatpak/page-1-1.md)
 * [Page 1](flatpak/page-1-2.md)
 * [Page 1](flatpak/page-1-3.md)
 * [Page 1](flatpak/page-1-4.md)
 * [Expose directories](flatpak/expose-directories.md)
+* [Use system home](flatpak/use-system-home.md)
 
 ## FAQ
 
