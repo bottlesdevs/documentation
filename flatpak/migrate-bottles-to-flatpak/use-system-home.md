@@ -64,7 +64,7 @@ Creating a new bottle, Bottles detect if it is running under Flatpak, then remov
 
 While <mark style="color:red;">**this is a practice discouraged by Bottles and we take no responsibility for what may happen after exposing your homedir to the runner**</mark>, there is a very simple way to do it.
 
-First we need to expose the homedir to Bottles, giving it the right permission ([read here](./) how to achieve this). Once the homedir is exposed, get into a terminal and move to the Bottles flatpak path:
+First we need to expose the homedir to Bottles, giving it the right permission ([read here](../expose-directories.md) how to achieve this). Once the homedir is exposed, get into a terminal and move to the Bottles flatpak path:
 
 ```
 cd ~/.var/app/com.usebottles.bottles/data/bottles/bottles
