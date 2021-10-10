@@ -5,7 +5,7 @@ description: Your first experience with Bottles starts here.
 
 At the first start you will be shown the Onboard, which is a wizard that will explain some concepts and help you configure Bottles.
 
-![Bottles Onboard](<../.gitbook/assets/image (14).png>)
+![Bottles Onboard](<../.gitbook/assets/image (5).png>)
 
 Once the key concepts of Bottles have been introduced, a runner (\~ 70MB) will be downloaded, which is necessary for creating your bottles.
 
@@ -24,13 +24,13 @@ We cannot offer these files with Bottles as these have different release cycles.
 
 
 
-![Downloading the first runner](<../.gitbook/assets/image (13).png>)
+![Downloading the first runner](<../.gitbook/assets/image (6).png>)
 
 This is a one time operation, you can use the same runner for all your bottles or install others from the Bottles preferences.
 
 Finally everything is ready and you can start using Bottles!
 
-![Everything is ready!](<../.gitbook/assets/image (9).png>)
+![Everything is ready!](<../.gitbook/assets/image (7).png>)
 
 ## Offline? You do not have time?
 
@@ -40,16 +40,16 @@ If you are Offline, Bottles will notice and ask you to go online to proceed. All
 
 You can go to the Bottles Preferences at any time and install a runner. Alternatively, when you create a bottle, you will be automatically taken to the installation page.
 
-![Wine Runners Preferences](<../.gitbook/assets/image (6).png>)
+![Wine Runners Preferences](<../.gitbook/assets/image (9).png>)
 
 ### Your first Bottle
 
 When everything is ready, you will be faced with a screen like the following, telling you that there is no bottles yet.
 
-![Empty bottles view](<../.gitbook/assets/image (11).png>)
+![Empty bottles view](<../.gitbook/assets/image (10).png>)
 
 To create your first bottle, you will need to press the plus button on the top left and proceed following the on-screen instructions.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 Bottles uses an ad environments system for its bottles, I suggest you continue reading the next section for more information.

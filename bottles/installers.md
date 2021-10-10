@@ -21,11 +21,11 @@ At launch, only 3 installers are available (Epic Games Store, Steam, Uplay). Thi
 
 To test this feature, you must first enable it from the experiments in the Bottles preferences.
 
-![Preferences > Experiments > Installers](<../.gitbook/assets/image (37).png>)
+![Preferences > Experiments > Installers](<../.gitbook/assets/image (36).png>)
 
 Once enabled, a new Installers item will pop up in the sidebar of your bottle page, click it and you will see the list of supported installers. To install one, just press Install and wait for the process to finish.
 
-![Bottle > Installers](<../.gitbook/assets/image (36).png>)
+![Bottle > Installers](<../.gitbook/assets/image (37).png>)
 
 Once the installation is completed, you will see the new program in the applications menu of your Desktop Environment or in the programs list of your bottle. 
 

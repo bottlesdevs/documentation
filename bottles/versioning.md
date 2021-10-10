@@ -1,26 +1,23 @@
 ---
-description: >-
-  Keep your data safe, reduce the risk of compromising them and restore the
-  status of the bottles in one click.
+description: Keep your data safe, reduce the risk of compromising them and restore the status of the bottles in one click.
 ---
-
 # Versioning
 
 {% hint style="warning" %}
 This is an experimental feature, use it with caution.
 {% endhint %}
 
-The third version of Bottles \(Treviso\) introduced a new feature called Versioning. 
+The third version of Bottles (Treviso) introduced a new feature called Versioning. 
 
 This is a versioning system for your bottles, based on user-defined restore points, allowing you to restore the bottle to a previous state when something goes wrong. Useful if you are testing multiple configurations. 
 
 ### How versioning works
 
-Versioning works through recovery points called states. The first recovery point is used as an index of the bottle files. Whenever a new state is created, Versioning checks the differences between the current files and those in the index of the previous state \(by checking the checksums of the new, missing and updated files\). When it detects changes, they are recorded in the index of the new state.
+Versioning works through recovery points called states. The first recovery point is used as an index of the bottle files. Whenever a new state is created, Versioning checks the differences between the current files and those in the index of the previous state (by checking the checksums of the new, missing and updated files). When it detects changes, they are recorded in the index of the new state.
 
 Below is an example of a state index created after installing the Comic font in the bottle:
 
-```text
+```
 {
     "Update_Date": "2021-07-02 21:52:18.906569",
     "Additions": [
@@ -40,19 +37,19 @@ Below is an example of a state index created after installing the Comic font in 
 
 As we can see, Versioning detected the presence of new files and added them to the index. If we restore the previous state to the one just created, the Comic font will be removed.
 
-Each state requires a comment during creation \(it will be used to recognize it when necessary\), and the creation date is also saved to provide more details to the user.
+Each state requires a comment during creation (it will be used to recognize it when necessary), and the creation date is also saved to provide more details to the user.
 
 The currently active state is highlighted in purple.
 
-![Versioning - Active state](../.gitbook/assets/image%20%2825%29.png)
+![Versioning - Active state](<../.gitbook/assets/image (19).png>)
 
 To restore a state it is necessary to press the icon with the clock to the right of the desired state.
 
 ### How to enable versioning feature
 
-The Versioning functionality is experimental and must be manually enabled from Bottles preferences \(Preferences -&gt; Experiments -&gt; Versioning\).
+The Versioning functionality is experimental and must be manually enabled from Bottles preferences (Preferences -> Experiments -> Versioning).
 
-![Experiments](../.gitbook/assets/image%20%2823%29.png)
+![Experiments](<../.gitbook/assets/image (20).png>)
 
 ### How to use versioning
 
@@ -62,7 +59,7 @@ You can use versioning with a new bottle or an existing one.
 
 The versioning is available during the creation of the bottle, only if you select the Custom environment, then checking Versioning from the Advanced options.
 
-![Versioning on Custom environment](../.gitbook/assets/image.png)
+![Versioning on Custom environment](<../.gitbook/assets/image (1).png>)
 
 In this way, a restore point will be created as soon as the bottle is created and versioning will take effect.
 
@@ -70,11 +67,9 @@ In this way, a restore point will be created as soon as the bottle is created an
 
 Versioning can be enabled for any existing bottle by simply selecting the Versioning item in the bottle details and creating a new state that will be used as the bottle's initial index.
 
-![Versioning - First state](../.gitbook/assets/image%20%2821%29.png)
+![Versioning - First state](<../.gitbook/assets/image (21).png>)
 
 We can understand if versioning on a bottle is active, through the purple icon in the bottle list and in the detail of the same, this also shows the number of the current state.
 
-![](../.gitbook/assets/image%20%281%29.png)
-
-
+![](<../.gitbook/assets/image (4).png>)
 

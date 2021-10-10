@@ -1,10 +1,9 @@
 ---
-description: 'Vulkan-based implementation of D3D9, D3D10 and D3D11 for Wine.'
+description: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Wine.
 ---
-
 # DXVK
 
-This magical component takes care of translating instructions from Direct3D 9/10/11 \(from Windows\) to Vulkan \(to Linux\) and is developed by [doitsujin](https://github.com/doitsujin/dxvk) and many other contributors.
+This magical component takes care of translating instructions from Direct3D 9/10/11 (from Windows) to Vulkan (to Linux) and is developed by [doitsujin](https://github.com/doitsujin/dxvk) and many other contributors.
 
 Mainly dxvk is a .dll override bundle which, integrated in a wine prefix, allows you to detect and translate calls from DirectX to Vulkan. This is done automatically, without any user intervention.
 
@@ -21,13 +20,13 @@ When this component is enabled, a backup of the old dlls is created in the winep
 
 To manually activate it in any bottle, simply enable the switcher from the bottle preferences.
 
-![Bottle - Preferences - DXVK](../.gitbook/assets/image%20%2827%29.png)
+![Bottle - Preferences - DXVK](<../.gitbook/assets/image (30).png>)
 
 ## DXVK updates
 
 You can keep this component updated from Bottles preferences.
 
-![Preferences - DXVK](../.gitbook/assets/image%20%2822%29.png)
+![Preferences - DXVK](<../.gitbook/assets/image (22).png>)
 
 ## Environment variables
 
@@ -42,9 +41,8 @@ If you don't know what we're talking about, don't touch anything. Bottles precon
 
 Other variables can be found from the [official repository](https://github.com/doitsujin/dxvk/#hud) and can be set using the Environment Variables section in the bottle preferences, like this:
 
-```text
+```
 DXVK_HUD='pipelines,gpuload,memory' DXVK_STATE_CACHE=0
 ```
 
-![Environment variables](../.gitbook/assets/image%20%287%29.png)
-
+![Environment variables](<../.gitbook/assets/image (17).png>)
