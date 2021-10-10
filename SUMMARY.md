@@ -51,7 +51,3 @@
 * [Why Bottles?](faq/why-bottles.md)
 * [Where is Winetricks?](faq/where-is-winetricks.md)
 * [Updates and old versions](faq/updates-and-old-versions.md)
-
-***
-
-* [Page 1](page-1.md)
