@@ -1,7 +1,6 @@
 ---
-description: 'Whether you are a developer or a log-hunting user, debugging is the way to go.'
+description: Whether you are a developer or a log-hunting user, debugging is the way to go.
 ---
-
 # Logs & Debugger
 
 There are two way to catch out the logs from Bottles:
@@ -29,7 +28,7 @@ cd /path_to_appimage
 ./Bottles*.AppImage
 ```
 
-This way you will receive all the logs in the Terminal \(which must remain open\).
+This way you will receive all the logs in the Terminal (which must remain open).
 
 ![Example of Bottles log in System Terminal.](../.gitbook/assets/screenshot-from-2021-01-05-23-32-13.png)
 
@@ -37,14 +36,14 @@ This way you will receive all the logs in the Terminal \(which must remain open\
 
 Using this method you will also see logs from Bottles and not only from runners. The following are the logging levels to better read and understand logs:
 
-* **\[INFO\]** This log informs the correct functioning of one or more operations performed by Bottles.
-* **\[WARNING\]** It is shown when an operation has been performed but there are one or more non-blocking warnings.
-* **\[ERROR\]** An error occurred and the operation was not completed.
-* **\[CRITICAL\]** The sudden error may have jeopardized Bottles from functioning correctly or an exception was not handled.
+* **\[INFO] **This log informs the correct functioning of one or more operations performed by Bottles.
+* **\[WARNING] **It is shown when an operation has been performed but there are one or more non-blocking warnings.
+* **\[ERROR] **An error occurred and the operation was not completed.
+* **\[CRITICAL] **The sudden error may have jeopardized Bottles from functioning correctly or an exception was not handled.
 
 ## Wine Debugger
 
-Wine comes with a built-in debugger \(`winedbg`\) for analyzing processes running in a wineprefix.
+Wine comes with a built-in debugger (`winedbg`) for analyzing processes running in a wineprefix.
 
 Wine debugger has several useful abilities, including the one to generate backtraces, set breakpoints, and even disassemble code. It supports a subset of the gdb commands, especially the most common ones. For instance you can use info proc and info thread and then attach to a given process, which can be very useful for running backtraces on deadlocks.
 
@@ -58,7 +57,7 @@ The Wine debugger allows us to access the backtrace of a crashed or frozen proce
 
 First run a Windows executable file in your bottle, then launch `winedbg` using the **Debug** voice in the Utility section from your bottle details.
 
-![Bottle - Wine Debugger](../.gitbook/assets/image%20%2829%29.png)
+![Bottle - Wine Debugger](<../.gitbook/assets/image (29).png>)
 
 The system Terminal will run with `winedbg` running inside your bottle.
 
@@ -74,7 +73,7 @@ bt all
 
 To receive the backtrace of a specific process, type:
 
-```text
+```
 info process
 ```
 
@@ -109,4 +108,3 @@ cont
 ```
 
 so keep using the program and on crash go back to Terminal to check the backtrace.
-

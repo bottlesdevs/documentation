@@ -42,9 +42,12 @@
 
 ## Flatpak
 
-* [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
+* [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak/README.md)
+  * [Page 1](flatpak/migrate-bottles-to-flatpak/page-1.md)
 * [Page 1](flatpak/page-1.md)
 * [Page 1](flatpak/page-1-1.md)
+* [Page 1](flatpak/page-1-2.md)
+* [Page 1](flatpak/page-1-3.md)
 * [Expose directories](flatpak/expose-directories.md)
 
 ## FAQ

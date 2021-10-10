@@ -1,10 +1,9 @@
 ---
-description: 'We offer Bottles in different packages, make your choice!'
+description: We offer Bottles in different packages, make your choice!
 ---
-
 # Installation
 
-Bottles is officially provided as AppImage, Flatpak, Snap, AUR, deb package. There are also other packages maintained by our community, like Fedora and AUR \(bottles-git\).
+Bottles is officially provided as AppImage, Flatpak, Snap, AUR, deb package. There are also other packages maintained by our community, like Fedora and AUR (bottles-git).
 
 ### AppImage
 
@@ -22,7 +21,7 @@ zap install bottles
 {% tab title="Traditional way" %}
 First you need to download the latest release from our [website](https://usebottles.com/download) then, set executable permission to the `.AppImage` file:
 
-```text
+```
 chmod +x Bottles-*-x86_64.AppImage
 ```
 
@@ -58,7 +57,7 @@ Install snapcraft, e.g. on Ubuntu 20.04+:
 apt install snapcraft
 ```
 
-then build, install \(using the `--dangerous` option to skip the checksum\) and run:
+then build, install (using the `--dangerous` option to skip the checksum) and run:
 
 ```bash
 snapcraft
@@ -106,16 +105,16 @@ Just press the button below:
 {% endtab %}
 
 {% tab title="Beta" %}
-Bottles Flatpak also provide a [Beta](https://github.com/flathub/com.usebottles.bottles/tree/beta) channel for testing purpose, maintained by our community.  
-  
-1. Add the Flathub beta remote:
+Bottles Flatpak also provide a [Beta](https://github.com/flathub/com.usebottles.bottles/tree/beta) channel for testing purpose, maintained by our community.\
+\
+1\. Add the Flathub beta remote:
 
 ```bash
 flatpak remote-add --user flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
 flatpak update --appstream
 ```
 
-2. Then install Bottles:
+2\. Then install Bottles:
 
 ```bash
 flatpak install --user flathub-beta com.usebottles.bottles
@@ -137,7 +136,7 @@ unzip bottles-source.zip
 cd bottles-source
 ```
 
-Build can be performed using `flatpak-builder` \(installable using your distribution package manager like apt, dnf, ..\):
+Build can be performed using `flatpak-builder` (installable using your distribution package manager like apt, dnf, ..):
 
 ```bash
 flatpak-builder --repo=bottles --force-clean --user build-dir com.usebottles.bottles.yml
@@ -171,7 +170,7 @@ Bottles will be available soon on Void Linux thanks to [@andry-dev](https://gith
 {% endtab %}
 
 {% tab title="NixOS" %}
-Bottles is available on NixOS [repositories](https://search.nixos.org/packages?channel=21.05&show=bottles&from=0&size=50&sort=relevance&type=packages&query=bottles) thanks to [@bloomvdomino](https://github.com/bloomvdomino) so you can install it using `nix-env`:
+Bottles is available on NixOS [repositories](https://search.nixos.org/packages?channel=21.05\&show=bottles\&from=0\&size=50\&sort=relevance\&type=packages\&query=bottles) thanks to [@bloomvdomino](https://github.com/bloomvdomino) so you can install it using `nix-env`:
 
 ```bash
 nix-env -iA nixos.bottles
@@ -179,7 +178,7 @@ nix-env -iA nixos.bottles
 {% endtab %}
 
 {% tab title="Tumbleweed" %}
-The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE_Tumbleweed/x86_64/) for openSUSE Tumbleweed is no more maintained. Feel free to port it again, contact us to list it here.
+The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE_Tumbleweed/x86\_64/) for openSUSE Tumbleweed is no more maintained. Feel free to port it again, contact us to list it here.
 {% endtab %}
 
 {% tab title="Build from source" %}
@@ -209,4 +208,3 @@ $ ninja install
 ```
 {% endtab %}
 {% endtabs %}
-
