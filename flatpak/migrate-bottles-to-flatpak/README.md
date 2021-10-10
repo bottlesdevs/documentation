@@ -1,7 +1,6 @@
 ---
 description: The Flatpak package uses a different path for storing bottles.
 ---
-
 # Migrate directories to Flatpak
 
 ## Migrate to Flatpak
@@ -14,7 +13,7 @@ The other packages save the essential Bottles files, such as components, temps, 
 
 #### Migrate old bottles to Flatpak
 
-The migration is simple as it sounds - just move \(or copy\) the content of the path `~/.local/share/bottles` to the new one `~/.var/app/com.usebottles.bottles/data/bottles`
+The migration is simple as it sounds - just move (or copy) the content of the path `~/.local/share/bottles` to the new one `~/.var/app/com.usebottles.bottles/data/bottles`
 
 ```bash
 # make a copy
@@ -29,4 +28,3 @@ rsync -a \
 ```
 
 Restart Bottles and that's it.
-

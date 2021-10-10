@@ -42,12 +42,13 @@
 
 ## Flatpak
 
+* [Page 1](flatpak/page-1.md)
 * [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak/README.md)
   * [Page 1](flatpak/migrate-bottles-to-flatpak/page-1.md)
-* [Page 1](flatpak/page-1.md)
 * [Page 1](flatpak/page-1-1.md)
 * [Page 1](flatpak/page-1-2.md)
 * [Page 1](flatpak/page-1-3.md)
+* [Page 1](flatpak/page-1-4.md)
 * [Expose directories](flatpak/expose-directories.md)
 
 ## FAQ
@@ -55,3 +56,7 @@
 * [Why Bottles?](faq/why-bottles.md)
 * [Where is Winetricks?](faq/where-is-winetricks.md)
 * [Updates and old versions](faq/updates-and-old-versions.md)
+
+***
+
+* [Page 1](page-1.md)
