@@ -43,8 +43,8 @@
 ## Flatpak
 
 * [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
-  * [Use system home](flatpak/migrate-bottles-to-flatpak/use-system-home.md)
-* [Expose directories](flatpak/expose-directories.md)
+* [Expose directories](flatpak/expose-directories/README.md)
+  * [Use system home](flatpak/expose-directories/use-system-home.md)
 
 ## FAQ
 
