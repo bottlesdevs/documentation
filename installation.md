@@ -101,6 +101,9 @@ Requirements:
 * glib
   * `glib2-devel` on Fedora
   * `libglib2.0-dev` on Debian/Ubuntu
+* python3 patool (runtime)
+* python3 markdown (runtime)
+* libhandy (runtime)
 
 Clone Bottles from GitHub:
 
