@@ -43,6 +43,7 @@
 ## Flatpak
 
 * [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
+* [Black screen or silent crash](flatpak/black-screen-or-silent-crash.md)
 * [Expose directories](flatpak/expose-directories/README.md)
   * [Use system home](flatpak/expose-directories/use-system-home.md)
 
