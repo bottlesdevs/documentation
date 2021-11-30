@@ -9,7 +9,7 @@ Warning, this procedure can expose your system (and therefore your personal file
 
 ### What's the homedir?
 
-Each user as a personal homedir (`/home/your_username`), this is the place when you can store your personal files, like videos, photos or documents. This path is also used for cache files `.cache` and software configurations `.config`.
+Each user has a personal homedir (`/home/your_username`), this is the place when you can store your personal files, like videos, photos or documents. This path is also used for cache files `.cache` and software configurations `.config`.
 
 #### How runners use my homedir?
 
