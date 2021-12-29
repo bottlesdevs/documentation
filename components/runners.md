@@ -1,6 +1,9 @@
 ---
-description: Runners are the heart of Bottles. They allow the execution of Windows software on Linux systems.
+description: >-
+  Runners are the heart of Bottles. They allow the execution of Windows software
+  on Linux systems.
 ---
+
 # Runners
 
 ## Types of runners
@@ -12,9 +15,12 @@ There are two types of runners in Bottles:
 
 The **Wine** runner is used for all Environments and is therefore in all bottles created, but also for external prefixes imported into Bottles. We support 3 different runners:
 
-* [Vaniglia](https://github.com/bottlesdevs/wine) (our runner, available by default in Bottles v3)
+* [Caffe](https://github.com/bottlesdevs/components/tree/main/runners/wine) (our official runner)
 * Lutris (from Lutris Developers)
 * Proton-GE (from [GloriousEggroll](https://github.com/GloriousEggroll))
+* Vaniglia (our vanilla runner, available by default since Bottles v3)
+
+**Caffe** is a powerful runner that came with a large set of patches and improvements for Gaming and Software.&#x20;
 
 **Vaniglia** (Vanilla) is a clean runner as its name suggests. Apply only wine-staging patches and a modern theme created by Joshua Ashton.
 
