@@ -153,7 +153,7 @@ nix-env -iA nixos.bottles
 {% endtab %}
 
 {% tab title="Tumbleweed" %}
-The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE\_Tumbleweed/x86\_64/) for openSUSE Tumbleweed is no more maintained. Feel free to port it again, contact us to list it here.
+The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE\_Tumbleweed/x86\_64/) for openSUSE Tumbleweed is no longer maintained. Feel free to port it again, contact us to list it here.
 {% endtab %}
 
 {% tab title="Build from source" %}
