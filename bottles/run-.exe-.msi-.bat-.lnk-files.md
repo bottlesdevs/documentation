@@ -1,6 +1,7 @@
 ---
 description: There are two ways to start these executables in Bottles
 ---
+
 # Run .exe/.msi/.bat/.lnk files
 
 An executable can be used to start or install a program in a bottle. In Bottles you can run these files in two ways:
@@ -61,5 +62,9 @@ bottles -b bottle_name -l /full/lnk/path
 | `-l --lnk`    | the lnk full path | ✅        |
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Note: use `flatpak run com.usebottles.bottles` instead of `bottles` for flatpak.
+{% endhint %}
 
 In this way the Bottles GUI will not be displayed, useful if we want to create custom Desktop Entry to start our favorite applications.
