@@ -156,6 +156,10 @@ nix-env -iA nixos.bottles
 The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE\_Tumbleweed/x86\_64/) for openSUSE Tumbleweed is no longer maintained. Feel free to port it again, contact us to list it here.
 {% endtab %}
 
+{% tab title="MX Linux" %}
+This package is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab.  Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
+{% endtab %}
+
 {% tab title="Build from source" %}
 Requirements:
 
