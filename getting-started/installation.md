@@ -157,7 +157,7 @@ The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE\
 {% endtab %}
 
 {% tab title="MX Linux" %}
-Bottles is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab.  Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
+This package is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab.  Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
 {% endtab %}
 
 {% tab title="Build from source" %}
