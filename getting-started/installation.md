@@ -153,7 +153,8 @@ nix-env -iA nixos.bottles
 {% endtab %}
 
 {% tab title="Tumbleweed" %}
-The [package](https://download.opensuse.org/repositories/home:/WhiXard/openSUSE\_Tumbleweed/x86\_64/) for openSUSE Tumbleweed is no longer maintained. Feel free to port it again, contact us to list it here.
+The [package](https://software.opensuse.org//download.html?project=home%3AVortexAcherontic&package=bottles) for openSUSE Tumbleweed is currently maintained by [@VortexAcherontic](https://github.com/VortexAcherontic).  
+The package is currently under review for the main games:tools repository. This page will be updated accordingly.
 {% endtab %}
 
 {% tab title="MX Linux" %}
