@@ -156,14 +156,7 @@ nix-env -iA nixos.bottles
 
 The package for openSUSE Tumbleweed can be obtained from the official games:tools repository.
 
-Via the [One-Click installer](https://software.opensuse.org//download.html?project=games%3Atools&package=bottles)
-
-Or manually:
-
-```bash
-sudo zypper ar -p 90 https://download.opensuse.org/repositories/games:/tools/openSUSE_Tumbleweed/ games:tools
-sudo zypper in bottles
-```
+Via the [software.opensuse.org](https://software.opensuse.org//download.html?project=games%3Atools&package=bottles)
 {% endtab %}
 
 {% tab title="MX Linux" %}
