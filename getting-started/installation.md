@@ -154,7 +154,7 @@ nix-env -iA nixos.bottles
 
 {% tab title="Tumbleweed" %}
 
-The package for openSUSE Tumbleweed can be obtained from the official [games:tools](https://software.opensuse.org//download.html?project=games%3Atools&package=bottles) repository.
+The package for openSUSE Tumbleweed can be obtained from the official [games:tools](https://software.opensuse.org/download.html?project=games%3Atools&package=bottles) repository.
 
 {% endtab %}
 
