@@ -3,9 +3,6 @@ description: Keep your data safe, reduce the risk of compromising them and resto
 ---
 # Versioning
 
-{% hint style="warning" %}
-This is an experimental feature, use it with caution.
-{% endhint %}
 
 The third version of Bottles (Treviso) introduced a new feature called Versioning. 
 
@@ -46,7 +43,6 @@ The currently active state is highlighted in purple.
 To restore a state it is necessary to press the icon with the clock to the right of the desired state.
 
 ### How to enable versioning feature
-
 The Versioning functionality is experimental and must be manually enabled from Bottles preferences (Preferences -> Experiments -> Versioning).
 
 ![Experiments](<../.gitbook/assets/image (20).png>)
