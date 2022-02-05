@@ -4,7 +4,11 @@ description: Propose new dependencies to the Bottles community
 
 # Missing dependencies
 
-Our addiction system is very young and still has a long way to go. But we can all take this way together! Help us expand and improve Bottles dependency system.
+Our dependencies system is very young and still has a long way to go. But we can all take this way together! Help us expand and improve Bottles dependency system.
+
+{% hint style="info" %}
+This page is only a first reference. Please refer to the [dedicated documentation](https://maintainers.usebottles.com/dependencies/Introduction).
+{% endhint %}
 
 ### First the basics
 
@@ -13,7 +17,7 @@ All dependencies present in Bottles are placed in a public repository, available
 The repository consists of 3 main points:
 
 * the `index.yml` file that is the index of all dependencies available in the repository
-* the **Essentials** and **Fonts** **categories** \(in the future there will be more\) where all the dependencies manifests are collected
+* the **Essentials** and **Fonts** **categories** (in the future there will be more) where all the dependencies manifests are collected
 * the dependency manifest
 
 The index.yml file looks like:
@@ -191,20 +195,20 @@ Steps:
 
 Each manifest has a bunch of mandatory data:
 
-* Name 
+* Name
 * Description
 * Provider
 * License and License\_url
-* Dependencies \(not implemented so leave it blank\)
+* Dependencies (not implemented so leave it blank)
 * Steps
 
-The **Name** should reflect the manifest file name \(e.g. allfonts for allfonts.yml\).
+The **Name** should reflect the manifest file name (e.g. allfonts for allfonts.yml).
 
-The **Description** is the full name of the dependency \(e.g. All Microsoft and Adobe essential fonts\)
+The **Description** is the full name of the dependency (e.g. All Microsoft and Adobe essential fonts)
 
-The **Provider** is the owner of the source where the dependency files are located. This can also be the name of the creator of the software \(e.g. Microsoft\).
+The **Provider** is the owner of the source where the dependency files are located. This can also be the name of the creator of the software (e.g. Microsoft).
 
-**License** and **License\_url** should be filled with the license name and url of the dependency we are going to install, normally these are offered with the software itself \(e.g. Microsoft EULA, in case of multiple licenses, only the main license can be specified: Mostly Microsoft EULA\).
+**License** and **License\_url** should be filled with the license name and url of the dependency we are going to install, normally these are offered with the software itself (e.g. Microsoft EULA, in case of multiple licenses, only the main license can be specified: Mostly Microsoft EULA).
 
 The **Steps** are the instructions to follow to install the dependency. Bottles takes into account the order in which these are written and executes them in the same order.
 
@@ -212,8 +216,5 @@ The **Steps** are the instructions to follow to install the dependency. Bottles 
 
 There are two ways of proposing new dependencies:
 
-* Filling a [new issue](https://github.com/bottlesdevs/dependencies/issues/new?assignees=mirkobrombin&labels=request+dependency&template=dependency-implementation-request.md&title=%5BRequest+dependency%5D) following the template for the dependencies implementation request
+* Filling a [new issue](https://github.com/bottlesdevs/dependencies/issues/new?assignees=mirkobrombin\&labels=request+dependency\&template=dependency-implementation-request.md\&title=%5BRequest+dependency%5D) following the template for the dependencies implementation request
 * Implementing by yourself [Read more](https://github.com/bottlesdevs/dependencies#how-to-contribute)
-
-
-
