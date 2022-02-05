@@ -19,13 +19,16 @@ Some dependencies examples are:
 * ffdshow
 * dirac
 
-and others, see [here](https://usebottles.com/database/dependencies/) more.
+A new state will be generated after the dependency installation.
 
 This is one of our most important features in Bottles. It is based on a public and community driven [repository](https://github.com/bottlesdevs/dependencies) where maintainers can propose new dependencies. [Read more](../contribute/missing-dependencies.md).
 
-If your bottle has the experimental [versioning](versioning.md) feature enabled, a new [state](versioning.md#how-versioning-works) will be generated after the dependency installation.
-
 Dependencies can also automatically be installed by the official Bottles installers. So if you choose to install e.g. the epicgamestore installer, you will see the new dependencies installed after the process.
+If you want to install them again, you can easly do it using the context menu ( three dots at the right of the dependence ) 
 
+
+## Packing dependences 
+
+Mantainers of depences can pack them, read an introduction for [packing](https://maintainers.usebottles.com/dependencies/Introduction)
 
 

@@ -3,9 +3,6 @@ description: Install new Windows programs in a few clicks in a guided and easy p
 ---
 # Installers
 
-{% hint style="warning" %}
-This is an experimental feature, use it with caution.
-{% endhint %}
 
 Installers are set of rules used by Bottles to install a program in a bottle, in a completely silent and automated way.
 
@@ -19,8 +16,6 @@ At launch, only 3 installers are available (Epic Games Store, Steam, Uplay). Thi
 
 ### Use installers
 
-To test this feature, you must first enable it from the experiments in the Bottles preferences.
-
 ![Preferences > Experiments > Installers](<../.gitbook/assets/image (36).png>)
 
 Once enabled, a new Installers item will pop up in the sidebar of your bottle page, click it and you will see the list of supported installers. To install one, just press Install and wait for the process to finish.
@@ -29,8 +24,12 @@ Once enabled, a new Installers item will pop up in the sidebar of your bottle pa
 
 Once the installation is completed, you will see the new program in the applications menu of your Desktop Environment or in the programs list of your bottle. 
 
-As we said, this is an **experimental feature**, it is under early development and should be used only for testing purposes until we hit the first stable release.
-
 ### Repository and contributions
 
 All installers are placed in a [public repository](https://github.com/bottlesdevs/programs) where any user can contribute. There are few [guidelines](https://github.com/bottlesdevs/programs/blob/main/GUIDELINES.md) that users can follow to make his own installers.
+
+### Note for architecture
+
+**Imporant note** installers can declare their architecture so if the bottle created is `Win64` it won't see `Win32` installers and viceversa
+
+

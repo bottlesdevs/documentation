@@ -21,3 +21,9 @@ From the **System** section you can change the runner, the dxvk and vkd3d versio
 In the **Audio** section you can toggle the "Reduce PulseAudio latency" feature which improve the audio quality for some games.
 
 The **Developer & Debug** section offers some utilities for developers. Here you can set environment variables, show the wine fixme logs and enable the DXVK HUD to display the FPS counter, draw calls, dxvk versions and other information.
+
+## Runtime 
+
+Runtime is a `lib bundle` wich mantains the compability for installers, it is avalible by default on **Flatpak packages** instead for other package types ( e.g AUR, Fedora ... ) you will need to install it from the program preferences.
+
+
