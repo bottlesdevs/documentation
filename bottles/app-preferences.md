@@ -1,5 +1,5 @@
 ---
-description: Bottles allows you to change some settings to suit your needs.
+description: Bottles allow you to change some settings to suit your needs.
 ---
 
 # App preferences
