@@ -4,7 +4,7 @@ description: Install new Windows programs in a few clicks in a guided and easy p
 # Installers
 
 
-Installers are set of rules used by Bottles to install a program in a bottle, in a completely silent and automated way.
+Installers are a set of rules used by Bottles to install a program in a bottle, in a completely silent and automated way.
 
 These installers take care of configuring the bottle, installing the necessary dependencies, installing the software and making it available to the user with settings that ensure that everything works in the best way.
 
@@ -30,6 +30,4 @@ All installers are placed in a [public repository](https://github.com/bottlesdev
 
 ### Note for architecture
 
-**Imporant note** installers can declare their architecture so if the bottle created is `Win64` it won't see `Win32` installers and viceversa
-
-
+**Important note** installers can declare their architecture so if the bottle created is `Win64` it won't see `Win32` installers and vice versa.
