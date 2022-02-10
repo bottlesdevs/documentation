@@ -13,7 +13,7 @@ The search is done through the common Start Menu directories, Bottles looks for 
 
 ### Launch installed programs
 
-After installing a software in the bottle, just go to the Programs section to start it.
+After installing a software application in the bottle, just go to the Programs section to start it.
 
 ![Bottles - Programs](<../.gitbook/assets/image (33).png>)
 
