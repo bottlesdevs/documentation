@@ -67,4 +67,4 @@ bottles -b bottle_name -l /full/lnk/path
 Note: use `flatpak run com.usebottles.bottles` instead of `bottles` for flatpak.
 {% endhint %}
 
-In this way the Bottles GUI will not be displayed, useful if we want to create custom Desktop Entry to start our favorite applications.
+In this way the Bottles GUI will not be displayed, useful if we want to create a custom Desktop Entry to start our favorite applications.
