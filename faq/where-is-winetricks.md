@@ -20,7 +20,6 @@ Finally, Winetricks is external software and clashes with our UI 😏.
 
 ### A community driven repository
 
-Our [repository](https://github.com/bottlesdevs/dependencies) will be community driven. This mean that other users can open Pull Requests to provide new dependency support to Bottles!
+Our [repository](https://github.com/bottlesdevs/dependencies) will be community driven. This means that other users can open Pull Requests to provide new dependency support to Bottles!
 
 Online database: [https://usebottles.com/database/dependencies](https://usebottles.com/database/dependencies)
-
