@@ -4,7 +4,7 @@ description: Propose new dependencies to the Bottles community
 
 # Missing dependencies
 
-Our dependencies system is very young and still has a long way to go. But we can all take this way together! Help us expand and improve Bottles dependency system.
+Our dependency system is very young and still has a long way to go. But we can all make this a way better, together! Help us expand and improve the Bottles dependency system.
 
 {% hint style="info" %}
 This page is only a first reference. Please refer to the [dedicated documentation](https://maintainers.usebottles.com/dependencies/Introduction).

@@ -29,15 +29,15 @@ This environment comes with the following configuration:
 
 ### Software environment
 
-This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications (such as 3D modeling, Video Edting and drawing programs) but also office and productivity software.
+This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications (such as 3D modeling, Video Editing and drawing programs) but also office and productivity software.
 
 ### Custom environment
 
 If you are a nerd (even more nerd) then this is the environment for you! 
 
-This is a clean environment where you can experiment, test and configure your bottle! You can also choose the runner to use for your experiments, just install others from Bottles Preferences page.
+This is a clean environment where you can experiment, test and configure your bottle! You can also choose the runner to use for your experiments, just install others from the Bottles Preferences page.
 
-Pssst ...! If you enable the Experimental Features in Bottles preferences page, you can try the versioning feature. This (unstable at the moment, so expect bugs, spiders and monsters under the bed ..) allows you to create versioned botles, keeping track of changes, creating restore points and obviously restoring to a previous state!
+Pssst…! If you enable the Experimental Features in Bottles preferences page, you can try the versioning feature. This (unstable at the moment, so expect bugs, spiders and monsters under the bed…) allows you to create versioned bottles, keeping track of changes, creating restore points and obviously restoring to a previous state!
 
 ## Environment preferences
 

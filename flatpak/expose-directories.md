@@ -10,7 +10,7 @@ Despite this, there are some cases where you may want to explicitly expose direc
 * let the [Importer](https://docs.usebottles.com/bottles/import-from-other-managers) find windows prefixes from other managers directories
 * use the file chooser provided by the runner to open/save files in your system, outside the sandbox
 
-To achieve this, we need to use an external program named [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal), it can be easily installed from Flathub using a compatible store like GNOME Software, elementary Appcenter or Discover. It is also possible to install trough the command line:
+To achieve this, we need to use an external program named [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal), it can be easily installed from Flathub using a compatible store like GNOME Software, elementary Appcenter or Discover. It is also possible to install through the command line:
 
 ```bash
 flatpak install com.github.tchx84.Flatseal
