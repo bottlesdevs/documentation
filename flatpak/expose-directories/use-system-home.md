@@ -9,11 +9,11 @@ Warning, this procedure can expose your system (and therefore your personal file
 
 ### What's the homedir?
 
-Each user has a personal homedir (`/home/your_username`), this is the place when you can store your personal files, like videos, photos or documents. This path is also used for cache files `.cache` and software configurations `.config`.
+Each user has a personal homedir (`/home/your_username`), this is the place where you can store your personal files, like videos, photos or documents. This path is also used for cache files `.cache` and software configurations `.config`.
 
-#### How runners use my homedir?
+#### How do runners use my homedir?
 
-Each [runner](../../components/runners.md) when make a new windows prefix (we call these bottles here), create a similar Windows structure:
+Each [runner](../../components/runners.md) when making a new windows prefix (we call these bottles here), creates a similar Windows structure:
 
 ```
 ._ bottles/
@@ -29,7 +29,7 @@ Each [runner](../../components/runners.md) when make a new windows prefix (we ca
             |_ windows/
 ```
 
-It generate a folder in the `users/` path, for the current logged in user (e.g. I'm currently logged as `mirko`, so the runner will create a `mirko/` folder inside `users/`. It also create a Public folder but it is not our interest right now.
+It generates a folder in the `users/` path, for the current logged in user (e.g. I'm currently logged as `mirko`, so the runner will create a `mirko/` folder inside `users/`. It also creates a Public folder, but that is not our interest right now.
 
 Each user folder contains some symlink to the original homedir:
 
@@ -52,13 +52,13 @@ Each user folder contains some symlink to the original homedir:
             |_ Videos -> ~/Videos
 ```
 
-So each program installed in the bottle, can see your files from the linked folders.
+So each program installed in the bottle can see your files from the linked folders.
 
-### Sand-boxed userdir (homedir)
+### Sandboxed userdir (homedir)
 
-Starting from Bottles 2021.10.14, the userdir path is sand-boxed, so the above symlinks doesn't exists.
+Starting from Bottles 2021.10.14, the userdir path is sandboxed, so the above symlinks don't exist.
 
-Creating a new bottle, Bottles detect if it is running under Flatpak, then remove these symlinks and make them as normal folders inside the bottle. As a result, each program can only works with files inside the sand-boxed userdir (sharable across programs).
+Creating a new bottle, Bottles detect if it is running under Flatpak, then remove these symlinks and make them as normal folders inside the bottle. As a result, each program can only work with files inside the sand-boxed userdir (shareable across programs).
 
 #### How to revert this?
 
