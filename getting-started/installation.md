@@ -8,7 +8,7 @@ Bottles is officially provided as AppImage, Flatpak, Snap, AUR, deb package. The
 
 ### Flatpak
 
-This is the only full-sandboxed version. It bundle all the needed dependencies and tools and works an all distributions [supported by Flatpak](https://flatpak.org/setup/).
+This is the only fully sandboxed version. It bundles all the needed dependencies and tools and works on all distributions [supported by Flatpak](https://flatpak.org/setup/).
 
 {% hint style="info" %}
 This is the most supported and tested release of Bottles.
