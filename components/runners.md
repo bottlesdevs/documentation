@@ -28,7 +28,7 @@ The **Proton** runner (developed by [Valve](https://github.com/ValveSoftware/Pro
 
 It contains several patches for specific gaming titles support, implements [OpenVR](https://partner.steamgames.com/doc/features/steamvr/openvr) support and integrates dxvk (installable on wine from the bottle preferences page).
 
-The Proton runner can be installed from the Bottles Preferences page and choosen on bottle creation selecting the Custom Environment. You can also switch from Wine to Proton at any time by changing your bottle preferences.
+The Proton runner can be installed from the Bottles Preferences page and chosen on a bottle creation by selecting the Custom Environment. You can also switch from Wine to Proton at any time by changing your bottle preferences.
 
 {% hint style="warning" %}
 We personally recommend using the Proton runner only in special cases where there is a patch for a specific video game. However, **Valve collaborates in the development of Wine** and many of the features integrated into Proton are also available in the latest versions of Wine.
