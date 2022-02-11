@@ -7,7 +7,7 @@ We keep the main versions of Bottles actively developed:
 | Release | Status | Reason |
 | :--- | :--- | :--- |
 | v1 | Active | It is currently distributed on elementary OS 5 |
-| v2 | EOL | It reach the end-of-life and was replaced by v3. |
+| v2 | EOL | It reached the end-of-life and was replaced by v3. |
 | treviso \(v3\) | Active | Current branch. |
 
 ### Backward compatibility
