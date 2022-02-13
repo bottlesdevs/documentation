@@ -1,8 +1,8 @@
 ---
 description: Install new Windows programs in a few clicks in a guided and easy process.
 ---
-# Installers
 
+# Installers
 
 Installers are a set of rules used by Bottles to install a program in a bottle, in a completely silent and automated way.
 
@@ -12,21 +12,19 @@ The novelty introduced by our own installers is the use of the integrated depend
 
 Each installer configures the executable in your system (at the moment it does not happen if you are using Flatpak), allowing you to access it at any time from the applications menu of your Desktop Environment. These are done through the Bottles CLI, making sure they use your bottle’s configuration and environment.
 
-At launch, only 3 installers are available (Epic Games Store, Steam, Uplay). This is indeed an experimental feature, we will add new installers in the future. [Here](https://usebottles.com/appstore/) you can see the full catalog.
+At launch 7 installers are available (Epic Games Store, Steam, Uplay, Origin, EA Games, GOG, Battle.net).
 
 ### Use installers
 
-![Preferences > Experiments > Installers](<../.gitbook/assets/image (36).png>)
+To use the installers you obviously need a bottle, so select the one you are interested in or create a new one. In the sidebar access the Installers section.
 
-Once enabled, a new Installers item will pop up in the sidebar of your bottle page, click it and you will see the list of supported installers. To install one, just press Install and wait for the process to finish.
+![Bottles - Installers](<../.gitbook/assets/installers (1).png>)
 
-![Bottle > Installers](<../.gitbook/assets/image (37).png>)
+Choose the installer you want and press the download icon. It will automatically configure your bottle and install the program. When the installation finish, you will see a new entry in your bottle's programs list.
 
-Once the installation is completed, you will see the new program in the applications menu of your Desktop Environment or in the programs list of your bottle. 
+Each installer came with its maintainer review, you can access it from the context menu or from its dedicated page on the [apps catalog](https://usebottles.com/appstore/).
 
-### Repository and contributions
-
-All installers are placed in a [public repository](https://github.com/bottlesdevs/programs) where any user can contribute. There are few [guidelines](https://github.com/bottlesdevs/programs/blob/main/GUIDELINES.md) that users can follow to make his own installers.
+All installers are placed in a [public repository](https://github.com/bottlesdevs/programs) where any user can contribute. If you are interested in make your own installers, please read the [maintainers documentation](https://maintainers.usebottles.com).
 
 ### Note for architecture
 
