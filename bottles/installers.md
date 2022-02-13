@@ -28,6 +28,10 @@ Choose the installer you want and press the download icon. It will automatically
 
 Each installer came with its maintainer review, you can access it from the context menu or from its dedicated page on the [apps catalog](https://usebottles.com/appstore/).
 
+{% hint style="info" %}
+Currently it is not possible to launch an installer from our website, we are working to provide this feature.
+{% endhint %}
+
 All installers are placed in a [public repository](https://github.com/bottlesdevs/programs) where any user can contribute. If you are interested in make your own installers, please read the [maintainers documentation](https://maintainers.usebottles.com).
 
 ### Note for architecture
