@@ -4,13 +4,13 @@
 
 We keep the main versions of Bottles actively developed:
 
-| Release | Status | Reason |
-| :--- | :--- | :--- |
-| v1 | Active | It is currently distributed on elementary OS 5 |
-| v2 | EOL | It reached the end-of-life and was replaced by v3. |
-| treviso \(v3\) | Active | Current branch. |
+| Release      | Status      | Notes                               |
+| ------------ | ----------- | ----------------------------------- |
+| Trento       | Active      | n/a                                 |
+| Treviso (v3) | EOL         | No support. Use latest version.     |
+| v2           | EOL         | No support. Use latest version.     |
+| v1           | Maintenance | Only severe bug and security fixes. |
 
 ### Backward compatibility
 
 Thanks to a common model and an internal update system, you can update Bottles without worrying about anything. You can import Bottles v1 prefixes via the built-in importer.
-
