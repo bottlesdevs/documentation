@@ -1,6 +1,7 @@
 ---
 description: Your first experience with Bottles starts here.
 ---
+
 # First run
 
 At the first start you will be shown the Onboard, which is a wizard that will explain some concepts and help you configure Bottles.
@@ -9,9 +10,9 @@ At the first start you will be shown the Onboard, which is a wizard that will ex
 
 Once the key concepts of Bottles have been introduced, a runner (\~ 70MB) will be downloaded, which is necessary for creating your bottles.
 
-**The files we download are available from our **[**public repository**](https://github.com/bottlesdevs/components)** for analysis purposes.** Below is the list of files that we are going to download at the first start:
+**The files we download are available from our** [**public repository**](https://github.com/bottlesdevs/components) **for analysis purposes.** Below is the list of files that we are going to download at the first start:
 
-* the latest Vaniglia runner ([**vaniglia-6.11**](https://github.com/bottlesdevs/components/blob/main/runners/wine/vaniglia-6.11.yml)** **at time of writing)
+* the latest Vaniglia runner ([**vaniglia-6.11**](https://github.com/bottlesdevs/components/blob/main/runners/wine/vaniglia-6.11.yml)\*\* \*\*at time of writing)
 * the latest DXVK ([**dxvk-1.9**](https://github.com/bottlesdevs/components/blob/main/dxvk/dxvk-1.9.yml) at time of writing)
 
 **each file is checked with the repository checksum**, if this check fails, the file is deleted and the installation fails.
@@ -22,8 +23,6 @@ We cannot offer these files with Bottles as these have different release cycles.
 **It is not our limit, it is how it must be done.** Downloading these files with the package means increasing the release frequency (even several times a day) or providing Bottles with older versions of these components. What we have chosen is the correct way to be able to offer the same experience to all distribution formats and to ensure that we offer the latest version of the components to the user on first launch.
 {% endhint %}
 
-
-
 ![Downloading the first runner](<../.gitbook/assets/image (6).png>)
 
 This is a one time operation, you can use the same runner for all your bottles or install others from the Bottles preferences.
@@ -31,6 +30,10 @@ This is a one time operation, you can use the same runner for all your bottles o
 Finally everything is ready and you can start using Bottles!
 
 ![Everything is ready!](<../.gitbook/assets/image (7).png>)
+
+Below is a video showing the process of first boot, first bottle creation and running a Windows program.
+
+{% embed url="https://www.youtube.com/watch?feature=youtu.be&v=JQyOGtPQ644" %}
 
 ## Offline? You do not have time?
 
