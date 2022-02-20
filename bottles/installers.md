@@ -20,6 +20,10 @@ At launch 7 installers are available (Epic Games Store, Steam, Uplay, Origin, EA
 
 ### Use installers
 
+Below is a video showing how to use the Installers in Bottles.
+
+{% embed url="https://www.youtube.com/watch?v=0BQjFlEdSVA" %}
+
 To use the installers you obviously need a bottle, so select the one you are interested in or create a new one. In the sidebar access the Installers section.
 
 ![Bottles - Installers](<../.gitbook/assets/installers (1).png>)
