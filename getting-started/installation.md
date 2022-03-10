@@ -185,7 +185,7 @@ and build using `meson` and install using `ninja`:
 mkdir build
 meson build && cd build
 ninja -j$(nproc)
-$ ninja install
+ninja install
 ```
 {% endtab %}
 {% endtabs %}
