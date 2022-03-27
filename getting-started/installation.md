@@ -48,7 +48,7 @@ We need the following dependencies:
 Download the latest bottles source from GitHub:
 
 ```bash
-wgen -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/master.zip
+wget -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/master.zip
 unzip bottles-source.zip
 cd bottles-source
 ```
