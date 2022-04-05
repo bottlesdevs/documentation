@@ -38,14 +38,9 @@ Each state requires a comment during creation (it will be used to recognize it w
 
 The currently active state is highlighted in purple.
 
-![Versioning - Active state](<../.gitbook/assets/image (19).png>)
+![Bottle - Versioning - Active state](../.gitbook/assets/bottles/versioning/Main.png)
 
 To restore a state it is necessary to press the icon with the clock to the right of the desired state.
-
-### How to enable versioning feature
-The Versioning functionality is experimental and must be manually enabled from Bottles preferences (Preferences -> Experiments -> Versioning).
-
-![Experiments](<../.gitbook/assets/image (20).png>)
 
 ### How to use versioning
 
@@ -53,19 +48,18 @@ You can use versioning with a new bottle or an existing one.
 
 #### On bottle creation
 
-The versioning is available during the creation of the bottle, only if you select the Custom environment, then checking Versioning from the Advanced options.
+The versioning is available during the creation of the bottle, only if you select the "Custom" environment, then checking "Use versioning" from the Advanced options.
 
-![Versioning on Custom environment](<../.gitbook/assets/image (1).png>)
+![Bottle - Versioning on Custom environment](../.gitbook/assets/bottles/versioning/NewBottle.png)
 
 In this way, a restore point will be created as soon as the bottle is created and versioning will take effect.
 
 #### In existing bottles
 
-Versioning can be enabled for any existing bottle by simply selecting the Versioning item in the bottle details and creating a new state that will be used as the bottle's initial index.
+Versioning can be enabled for any existing bottle by simply selecting the Versioning section in the bottle details and creating a new state that will be used as the bottle's initial index.
 
-![Versioning - First state](<../.gitbook/assets/image (21).png>)
+![Bottle - Versioning - First state](../.gitbook/assets/bottles/versioning/ExistingBottle.png)
 
 We can understand if versioning on a bottle is active, through the purple icon in the bottle list and in the detail of the same, this also shows the number of the current state.
 
-![](<../.gitbook/assets/image (4).png>)
-
+![Bottles List](../.gitbook/assets/bottles/versioning/BottlesList.png)

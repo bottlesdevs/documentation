@@ -13,7 +13,7 @@ There are two types of runners in Bottles:
 * Wine
 * Proton
 
-The **Wine** runner is used for all Environments and is therefore in all bottles created, but also for external prefixes imported into Bottles. We support 3 different runners:
+The **Wine** runner is used for all Environments and is therefore in all bottles created, but also for external prefixes imported into Bottles. We support 4 different runners:
 
 * [Caffe](https://github.com/bottlesdevs/components/tree/main/runners/wine) (our official runner)
 * Lutris (from Lutris Developers)
@@ -38,11 +38,11 @@ We personally recommend using the Proton runner only in special cases where ther
 
 You can install new runners by clicking the download button next the runner of your interest.
 
-![Preferences - Runners](<../.gitbook/assets/image (27).png>)
+![Bottles - Preferences - Runners](../.gitbook/assets/components/runners/Main.png)
 
-If you're feeling fearless, you can enable Release Candidates to download and then test premature versions of runners, which may include greater software compatibility at the cost of bugs and possible regressions.
+If you're feeling fearless, you can enable Release Candidates ("Pre-release" option) to download and then test premature versions of runners, which may include greater software compatibility at the cost of bugs and possible regressions.
 
-![Preferences - Runners (Pre-release)](<../.gitbook/assets/image (26).png>)
+![Bottles - Preferences - Runners (Pre-release)](<../.gitbook/assets/image (26).png>)
 
 ### How to add unlisted runners?
 

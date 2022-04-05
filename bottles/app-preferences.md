@@ -4,14 +4,20 @@ description: Bottles allow you to change some settings to suit your needs.
 
 # App preferences
 
-To access Bottles preferences, just press the menu button and select **Preferences**. 
+To access Bottles preferences, just press the menu button and select **Preferences**.
+
+![Bottles - Main Menu](../.gitbook/assets/bottles/app_preferences/ContextMenu.png)
 
 Preferences shows four sections:
 
 * General
 * Runners
-* DXVK/VKD3D
+* DLL Components
 * Experiments
+
+![Bottles - Preferences](../.gitbook/assets/bottles/app_preferences/General.png)
+
+### General
 
 In the **General** section you can configure the Bottles appearance and general settings.
 
@@ -26,9 +32,23 @@ General settings:
 * Temp files \(toggle to prune the temp directory on Bottles start, this will reduce the disk used by Bottles but also forcing re-download dependencies when installing in new bottles\)
 * Close Bottles after starting a program \(this works only when Bottles was started from the file manager or using the CLI\)
 
-In the **Runners** section you can list, browse and install new runners which can be used to create new bottles. [Read more](../components/runners.md).
+Advanced settings:
 
-From the **DXVK/VKD3D** section you can list, browse and install new versions of DXVK and VKD3D. [Read more](../components/dxvk.md).
+* Custom bottles path \(specifies the directory that Bottles should use to search for existing bottles and create new ones\)
 
-The Experiments sections show all the work in progress \(unstable\) features that will be integrated in Bottles in the future. [Versioning](versioning.md) and [Installers](installers.md) are the currently active experiments.
+### Runners
+
+![Bottles - Preferences - Runners](../.gitbook/assets/bottles/app_preferences/Runners.png)
+
+In the **Runners** section you can list, browse and install new runners which can be used to create new bottles. [Read more about Runners](../components/runners.md).
+
+### DLL Components
+
+![Bottles - Preferences - DLL Components](../.gitbook/assets/bottles/app_preferences/DLLComponents.png)
+
+From the **DLL Components** section you can list, browse and install new versions of DXVK, VKD3D, DXVK-NVAPI and LatencyFleX. [Read more about DXVK](../components/dxvk.md).
+
+### Experiments
+
+The **Experiments** sections allows you to enable functions that are currently under active development and may work unstable. Use them at your own risk.
 

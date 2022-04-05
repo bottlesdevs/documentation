@@ -15,7 +15,7 @@ Let's go into the details of the bottle of our interest (read [here](https://doc
 
 Under the bottle name we find the **Run executable** button:
 
-![Bottle details - Run executable](<../.gitbook/assets/image (31).png>)
+![Bottle - Details](../.gitbook/assets/bottles/details_and_utilities/Main.png)
 
 Pressing it will open a window from which to select the executable of our interest, once selected it will be executed in the bottle.
 
@@ -23,7 +23,7 @@ Pressing it will open a window from which to select the executable of our intere
 
 Some applications require you to start with arguments. As you can see from the previous image, next to Run executable there is an arrow, by pressing it you can select the item Run with arguments. Once pressed, a screen will appear where you can enter our arguments:
 
-![Bottles details - Run executable with arguments](<../.gitbook/assets/image (32).png>)
+![Bottle - Details - Run executable with arguments](../.gitbook/assets/bottles/details_and_utilities/RunWithArguments.png)
 
 Once finished, we press on Run and select the executable to start it in the bottle.
 

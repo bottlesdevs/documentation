@@ -5,7 +5,7 @@ description: You can change your bottle preferences at any time to improve softw
 
 This is one of the most important sections, here you can configure and tweak your bottle.
 
-![Bottle preferences](<../.gitbook/assets/image (30).png>)
+![Bottle - Preferences - Graphocs](../.gitbook/assets/bottles/preferences/Graphics.png)
 
 This page is divided into four sections:
 
@@ -14,13 +14,24 @@ This page is divided into four sections:
 * Audio
 * Developers & Debug
 
-In the **Graphics** section you can set up some graphics related utilities, e.g. you can toggle [DXVK, VKD3D](../components/dxvk.md), Gamemode, the ACO shader compiler or choose to use a virtual desktop with a custom resolution or make Bottles use your discrete GPU (for dual-gpu laptops, like optimus, this will improve performances at the cost of increased power usage).
+In the **Graphics** section you can set up some graphics related utilities, e.g. you can toggle [DXVK, VKD3D](../components/dxvk.md), DLSS, FSR, LatencyFleX or choose to use a virtual desktop with a custom resolution or make Bottles use your discrete GPU (for dual-gpu laptops, like optimus, this will improve performances at the cost of increased power usage).
 
-From the **System** section you can change the runner, the dxvk and vkd3d version, the working directory (the path where the executable will be executed), register new DLL Overrides and choose the synchronization type (wine, esync, fsync).
+From the **System** section you can:
+* change the components (runner, dxvk...) versions
+* choose the synchronization type
+* change the Windows version
+* change the working directory (the path where the executable will be executed)
+* register new DLL Overrides and environment variables
+* manage drives for accessing files inside bottle
+* and more...
+
+![Bottle - Preferences - System](../.gitbook/assets/bottles/preferences/System.png)
 
 In the **Audio** section you can toggle the "Reduce PulseAudio latency" feature which improves the audio quality for some games.
 
-The **Developer & Debug** section offers some utilities for developers. Here you can set environment variables, show the wine fixme logs and enable the DXVK HUD to display the FPS counter, draw calls, dxvk versions and other information.
+The **Developer & Debug** section offers some utilities for developers. Here you can show the wine fixme logs and enable the DXVK HUD or MangoHud to display the FPS counter, draw calls, dxvk versions and other information.
+
+![Bottle - Preferences - Audio](../.gitbook/assets/bottles/preferences/Audio.png)
 
 ## Runtime 
 

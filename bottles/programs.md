@@ -15,21 +15,40 @@ The search is done through the common Start Menu directories, Bottles looks for 
 
 After installing a software application in the bottle, just go to the Programs section to start it.
 
-![Bottles - Programs](<../.gitbook/assets/image (33).png>)
+![Bottle - Programs](../.gitbook/assets/bottles/programs/Main.png)
 
-If you don't see the program you are looking for, press the Refresh button at the top right to let Bottles searching for new programs.
+If you don't see the program you are looking for, press the Refresh button at the top right (![Bottle - Programs - Refresh Button](../.gitbook/assets/bottles/programs/RefreshButton.png)) to let Bottles searching for new programs.
 
-Then press the Play button on the right to start the program.
+Then press the Play button on the right (![Bottle - Programs - Play Button](../.gitbook/assets/bottles/programs/PlayButton.png)) to start the program.
+
+#### Add сustom programs
+
+If Bottles cannot find your program automatically, you can manually specify the path to the executable file. To do this, click on the Add button (![Bottle - Programs - Add Button](../.gitbook/assets/bottles/programs/AddButton.png)) and select the executable file.
+
+#### Hide programs
+
+You can hide those programs that you don't want to see in the installed list. To do this, open the context menu of the program (the icon with the 3 dots) and select the "Remove from Programs" option.
+
+![Bottle - Programs - Hide](../.gitbook/assets/bottles/programs/Hide.png)
+
+You can switch the display mode of hidden programs using a special button ![Bottle - Programs - Show Button](../.gitbook/assets/bottles/programs/ShowButton.png). After switching the display mode, you will be able to see previously hidden programs.
+
+![Bottle - Programs - All](../.gitbook/assets/bottles/programs/All.png)
 
 #### Custom arguments
 
-Some programs may require arguments to be passed to the executable. To set them you can press the context menu (the icon with the 3 dots) and choose Change Launch Options.
+Some programs may require arguments to be passed to the executable. To set them you can open the context menu and choose "Change launch options".
 
-![Bottles - Programs - Change Launch Options](<../.gitbook/assets/image (34).png>)
+![Bottle - Programs - Launch Options](../.gitbook/assets/bottles/programs/LaunchOptions.png)
 
 A field will appear where you can enter the arguments of the executable, once done press Save at the top right and start the program. Bottles will remember the arguments for that executable, so you don't have to add them again.
 
-![Bottles - Programs - Launch Options](<../.gitbook/assets/image (35).png>)
+![Bottle - Programs - Launch Arguments](../.gitbook/assets/bottles/programs/LaunchArguments.png)
+
+In the "Advanced options" section, you can specify the script that will be run immediately after your application is launched.
+
+![Bottle - Programs - Launch Script](../.gitbook/assets/bottles/programs/LaunchScript.png)
+
 
 #### Prefix and suffix in launch options
 

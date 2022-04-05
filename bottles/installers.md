@@ -16,8 +16,6 @@ The novelty introduced by our own installers is the use of the integrated depend
 
 Each installer configures the executable in your system (at the moment it does not happen if you are using Flatpak), allowing you to access it at any time from the applications menu of your Desktop Environment. These are done through the Bottles CLI, making sure they use your bottle’s configuration and environment.
 
-At launch 7 installers are available (Epic Games Store, Steam, Uplay, Origin, EA Games, GOG, Battle.net).
-
 ### Use installers
 
 Below is a video showing how to use the Installers in Bottles.
@@ -26,7 +24,7 @@ Below is a video showing how to use the Installers in Bottles.
 
 To use the installers you obviously need a bottle, so select the one you are interested in or create a new one. In the sidebar access the Installers section.
 
-![Bottles - Installers](<../.gitbook/assets/installers (1).png>)
+![Bottle - Installers](../.gitbook/assets/bottles/installers/Main.png)
 
 Choose the installer you want and press the download icon. It will automatically configure your bottle and install the program. When the installation finish, you will see a new entry in your bottle's programs list.
 

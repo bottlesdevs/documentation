@@ -6,6 +6,8 @@ description: >-
 
 # Dependencies
 
+![Bottle - Dependencies](../.gitbook/assets/bottles/dependencies/Main.png)
+
 Here you can extend your bottle compatibility adding new dependencies. These are Windows software and libraries installed by Bottles trough automation.
 
 Some dependencies examples are:
@@ -26,6 +28,13 @@ This is one of our most important features in Bottles. It is based on a public a
 Dependencies can also automatically be installed by the official Bottles installers. So if you choose to install e.g. the epicgamestore installer, you will see the new dependencies installed after the process.
 If you want to install them again, you can do it using the context menu (three dots at the right side of a dependency).
 
+## Multiple selection
+
+You can switch to multiselection mode using the button ![Bottle - Dependencies - Selection Button](../.gitbook/assets/bottles/dependencies/MultiselectionButton.png).
+
+![Bottle - Dependencies - Multiple Selection](../.gitbook/assets/bottles/dependencies/MultiselectionMode.png)
+
+In this mode, you can select several dependencies at once and, by clicking on the "Install selected" button, install them all at once. **However, the use of this mode currently is not recommended due to possible installation problems.**
 
 ## Packing dependences 
 
