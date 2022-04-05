@@ -20,13 +20,17 @@ When this component is enabled, a backup of the old dlls is created in the winep
 
 To manually activate it in any bottle, simply enable the switcher from the bottle preferences.
 
-![Bottle - Preferences - DXVK](<../.gitbook/assets/image (30).png>)
+![Bottle - Preferences - DXVK toggle](../.gitbook/assets/components/dxvk/InBottlePreferencesToggle.png)
 
 ## DXVK updates
 
-You can keep this component updated from Bottles preferences.
+You can keep this component updated from main Bottles preferences ("DLL Components" tab).
 
-![Preferences - DXVK](<../.gitbook/assets/image (22).png>)
+![Preferences - DXVK](../.gitbook/assets/bottles/app_preferences/DLLComponents.png)
+
+To change the DXVK version used by a particular bottle, open the "Preferences" tab of your bottle and expand the "Components version" drop-down list in the "System" section.
+
+![Bottle - Preferences - DXVK versioin](../.gitbook/assets/components/dxvk/InBottlePreferencesVersion.png)
 
 ## Environment variables
 
@@ -39,10 +43,6 @@ If you don't know what we're talking about, don't touch anything. Bottles precon
 * `DXVK_STATE_CACHE_PATH` is preconfigured and points to the root path of the bottle
 * `DXVK` is preconfigured to `compiler` otherwise is set to `devinfo, memory, drawcalls, fps, version, api, compiler` if enabled from the settings for Developers and Debug in the bottle
 
-Other variables can be found from the [official repository](https://github.com/doitsujin/dxvk/#hud) and can be set using the Environment Variables section in the bottle preferences, like this:
+Other variables can be found from the [official repository](https://github.com/doitsujin/dxvk/#hud) and can be set using the "Environment variables" settings in the bottle Preferences ("System" section), like this:
 
-```
-DXVK_HUD='pipelines,gpuload,memory' DXVK_STATE_CACHE=0
-```
-
-![Environment variables](<../.gitbook/assets/image (17).png>)
+![Bottle - Preferences - Environment variables](../.gitbook/assets/components/dxvk/EnvironmentVariables.png)

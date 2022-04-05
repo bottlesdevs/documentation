@@ -13,6 +13,14 @@ Currently we support migration from these applications:
 
 ### How to import
 
-Access the bottles menu and select "Import and export", then click on the circle arrow to list the available imports.
+You can access the import tools from the Bottles main menu by selecting the "Import/export" option.
 
-![](<../.gitbook/assets/image (18).png>)
+![Bottles - Main Menu](../.gitbook/assets/bottles/import/ContextMenu.png)
+
+The "Importer" window will open.
+
+![Bottles - Importer](../.gitbook/assets/bottles/import/Importer.png)
+
+Clicking on the Refresh button (![Bottles - Importer - Refresh Button](../.gitbook/assets/bottles/import/RefreshButton.png)) will launch a search for wineprefixes available for import.
+
+Button ![Bottles - Importer - Import Button](../.gitbook/assets/bottles/import/ImportButton.png) allows you to import bottle backups created earlier ([Backups & Duplicate](./backups.md)).
