@@ -8,12 +8,12 @@
 * [First run](getting-started/first-run.md)
 * [Environments](getting-started/environments.md)
 
-## 🍷 Components
+## Components
 
 * [Runners](components/runners.md)
 * [DXVK](components/dxvk.md)
 
-## 🔳 Bottles
+## Bottles
 
 * [App preferences](bottles/app-preferences.md)
 * [Run .exe/.msi/.bat/.lnk files](bottles/run-.exe-.msi-.bat-.lnk-files.md)
@@ -27,7 +27,7 @@
 * [Import from other managers](bottles/import-from-other-managers.md)
 * [Configuration files](bottles/configuration-files.md)
 
-## 🔧 Utilities
+## Utilities
 
 * [Logs & Debugger](utilities/logs-and-debugger.md)
 * [CMD](utilities/cmd.md)
@@ -52,3 +52,7 @@
 * [Why Bottles?](faq/why-bottles.md)
 * [Where is Winetricks?](faq/where-is-winetricks.md)
 * [Updates and old versions](faq/updates-and-old-versions.md)
+
+## Advanced
+
+* [CLI](advanced/cli.md)

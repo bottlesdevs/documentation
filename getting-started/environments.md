@@ -1,6 +1,7 @@
 ---
 description: In Bottles we use environments for creating new bottles.
 ---
+
 # Environments
 
 Bottles Environments offers a package of configurations and dependencies to enhance support for Windows software in some contexts.
@@ -11,7 +12,7 @@ We offer the following default Environments:
 * **Software** for... software
 * **Custom** is just a clear workspace where you can start making experiments
 
-![Environment selection](<../.gitbook/assets/image (12).png>)
+![Environment selection](<../.gitbook/assets/image (12) (1).png>)
 
 ### Gaming environment
 
@@ -22,7 +23,7 @@ This environment comes with the following configuration:
 * Esync enabled
 * Discrete Graphics Card enabled (useful for laptops with hybrid graphics setup)
 * PulseAudio latency forced to 60ms for better audio quality in-game
-* d3dx9, d3dcompiler_43, d3dcompiler_47 dlls
+* d3dx9, d3dcompiler\_43, d3dcompiler\_47 dlls
 * Microsoft Line Services
 * Arial, Times and Courier fonts
 
@@ -32,7 +33,7 @@ This environment enables DXVK and VKD3D by default, ensuring support for multime
 
 ### Custom environment
 
-If you are a nerd (even more nerd) then this is the environment for you! 
+If you are a nerd (even more nerd) then this is the environment for you!
 
 This is a clear environment where you can experiment, test and configure your bottle! You can also choose which runner to use for your experiments, just install more from the Bottles Preferences page.
 

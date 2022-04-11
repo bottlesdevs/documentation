@@ -29,7 +29,7 @@ This is a one time operation, you can use the same runner for all your bottles o
 
 Finally everything is ready and you can start using Bottles!
 
-![Everything is ready!](<../.gitbook/assets/image (7).png>)
+![Everything is ready!](<../.gitbook/assets/image (7) (1).png>)
 
 Below is a video showing the process of first boot, first bottle creation and running a Windows program.
 
