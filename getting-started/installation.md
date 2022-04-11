@@ -97,7 +97,7 @@ makepkg -si
 
 ### AppImage
 
-This is the most tested and updated version ever. It is a portable package that should works on every distribution.
+It is a portable package that should works on every distribution.
 
 {% hint style="warning" %}
 AppImage is broken, we are investigating, please use Flatpak in the meantime.

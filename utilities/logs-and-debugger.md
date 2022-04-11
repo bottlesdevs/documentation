@@ -36,10 +36,10 @@ This way you will receive all the logs in the Terminal (which must remain open).
 
 Using this method you will also see logs from Bottles and not only from runners. The following are the logging levels to better read and understand logs:
 
-* **\[INFO] **This log informs the correct functioning of one or more operations performed by Bottles.
-* **\[WARNING] **It is shown when an operation has been performed but there are one or more non-blocking warnings.
-* **\[ERROR] **An error occurred and the operation was not completed.
-* **\[CRITICAL] **The sudden error may have jeopardized Bottles from functioning correctly or an exception was not handled.
+* **\[INFO]** This log informs the correct functioning of one or more operations performed by Bottles.
+* **\[WARNING]** It is shown when an operation has been performed but there are one or more non-blocking warnings.
+* **\[ERROR]** An error occurred and the operation was not completed.
+* **\[CRITICAL]** The sudden error may have jeopardized Bottles from functioning correctly or an exception was not handled.
 
 ## Wine Debugger
 
@@ -57,7 +57,7 @@ The Wine debugger allows us to access the backtrace of a crashed or frozen proce
 
 First run a Windows executable file in your bottle, then launch `winedbg` using the **Debug** voice in the Utility section from your bottle details.
 
-![Bottle - Wine Debugger](<../.gitbook/assets/image (29).png>)
+![Bottle - Wine Debugger](<../.gitbook/assets/utilities/logs_and_debugger/Debug.png>)
 
 The system Terminal will run with `winedbg` running inside your bottle.
 
