@@ -36,6 +36,11 @@
 * [Regedit](utilities/regedit.md)
 * [Uninstaller](utilities/uninstaller.md)
 
+## Advanced
+
+* [CLI](advanced/cli.md)
+* [Use Bottles as wine command](advanced/use-bottles-as-wine-command.md)
+
 ## 🎩 Contribute
 
 * [Missing dependencies](contribute/missing-dependencies.md)
@@ -52,7 +57,3 @@
 * [Why Bottles?](faq/why-bottles.md)
 * [Where is Winetricks?](faq/where-is-winetricks.md)
 * [Updates and old versions](faq/updates-and-old-versions.md)
-
-## Advanced
-
-* [CLI](advanced/cli.md)
