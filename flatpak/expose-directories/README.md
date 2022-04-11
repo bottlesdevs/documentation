@@ -3,7 +3,7 @@ description: Use this guide if you need to reach other directories in the Flatpa
 ---
 # Expose directories
 
-The Bottles Flatpak is sand-boxed and confined in its directories. It makes use of [portals](https://docs.flatpak.org/en/latest/portal-api-reference.html) to let you open and save files in other directories.
+The Bottles Flatpak is sandboxed and confined in its directories. It makes use of [portals](https://docs.flatpak.org/en/latest/portal-api-reference.html) to let you open and save files in other directories.
 
 Despite this, there are some cases where you may want to explicitly expose directories to the Flatpak, e.g.:
 
@@ -20,13 +20,13 @@ or to manage more complex cases through a GUI we can use an external program nam
 flatpak install com.github.tchx84.Flatseal
 ```
 
-On first launch you need to select Bottles from the left menu, then scroll to the Filesystem section and make your choices.
+At the first launch of Flatseal you need to select Bottles from the left menu, then scroll to the Filesystem section and make your choices.
 
-![Flatseal > Bottles](<../../.gitbook/assets/image (38).png>)
+![Flatseal > Bottles](<../../.gitbook/assets/flatpak/expose_directories/readme/FlatsealFilesystem.png>)
 
 We suggest to not expose all your system or home but manually add each directory in **Other files**. In the following example we are exposing the `~/Games` folder from our home (the default location for Lutris windows prefixes).
 
-![Exposing the \~/Games directory](<../../.gitbook/assets/image (41).png>)
+![Exposing the \~/Games directory](<../../.gitbook/assets/flatpak/expose_directories/readme/FlatsealGames.png>)
 
 Then the Bottles Importer will see the new directory.
 

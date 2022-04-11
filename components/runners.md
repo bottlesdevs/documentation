@@ -42,7 +42,7 @@ You can install new runners by clicking the download button next the runner of y
 
 If you're feeling fearless, you can enable Release Candidates ("Pre-release" option) to download and then test premature versions of runners, which may include greater software compatibility at the cost of bugs and possible regressions.
 
-![Bottles - Preferences - Runners (Pre-release)](<../.gitbook/assets/image (26).png>)
+![Bottles - Preferences - Runners (Pre-release)](<../.gitbook/assets/components/runners/PreRelease.png>)
 
 ### How to add unlisted runners?
 
