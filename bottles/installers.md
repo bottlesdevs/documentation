@@ -36,6 +36,12 @@ Currently it is not possible to launch an installer from our website, we are wor
 
 All installers are placed in a [public repository](https://github.com/bottlesdevs/programs) where any user can contribute. If you are interested in make your own installers, please read the [maintainers documentation](https://maintainers.usebottles.com).
 
+### Compatibility grades
+
+Each installer is marked with a compatibility grade based on the results of the testing. If the software is at least usable it is marked as Bronze and better it works higher is going to be considered with a maximum value of Platinum.
+
+The grades are (from worse to best): Bronze, Silver, Gold, Platinum
+
 ### Note for architecture
 
 **Important note** installers can declare their architecture so if the bottle created is `Win64` it won't see `Win32` installers and vice versa.

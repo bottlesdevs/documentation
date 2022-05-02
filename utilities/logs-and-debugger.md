@@ -1,6 +1,7 @@
 ---
 description: Whether you are a developer or a log-hunting user, debugging is the way to go.
 ---
+
 # Logs & Debugger
 
 There are two way to catch out the logs from Bottles:
@@ -30,7 +31,7 @@ cd /path_to_appimage
 
 This way you will receive all the logs in the Terminal (which must remain open).
 
-![Example of Bottles log in System Terminal.](<../.gitbook/assets/Screenshot from 2021-01-05 23-32-13.png>)
+![Example of Bottles log in System Terminal.](<../.gitbook/assets/Screenshot from 2021-01-05 23-32-13 (1).png>)
 
 ### Logging levels
 
@@ -57,7 +58,7 @@ The Wine debugger allows us to access the backtrace of a crashed or frozen proce
 
 First run a Windows executable file in your bottle, then launch `winedbg` using the **Debug** voice in the Utility section from your bottle details.
 
-![Bottle - Wine Debugger](<../.gitbook/assets/utilities/logs_and_debugger/Debug.png>)
+![Bottle - Wine Debugger](../.gitbook/assets/utilities/logs\_and\_debugger/Debug.png)
 
 The system Terminal will run with `winedbg` running inside your bottle.
 
@@ -91,7 +92,6 @@ Wine-dbg>info process
  00000080 5        \_ 'winedevice.exe'
  00000068 5        \_ 'plugplay.exe'
  00000044 4        \_ 'winedevice.exe'
-
 ```
 
 Focus on the first column of the output where the process ID appears, let's attach the debugger to the process ID of interest:
