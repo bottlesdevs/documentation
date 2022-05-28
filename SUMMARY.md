@@ -40,6 +40,7 @@
 
 * [CLI](advanced/cli.md)
 * [Use Bottles as wine command](advanced/use-bottles-as-wine-command.md)
+* [xdg-open links](advanced/xdg-open.md)
 
 ## 🎩 Contribute
 
