@@ -129,18 +129,22 @@ Move the file to a safe path where there is no risk of deleting them and double 
 
 ### Other packages
 
-Our community provides non-official packages for installing Bottles on some distributions.
+Our community provides unofficial packages for installing Bottles on some distributions.
+
+{% hint style="info" %}
+While we are open to working with package maintainers from all sorts of Linux distributions to deliver the best possible experience of using Bottles, we are not responsible for the quality of the unofficial packages. Please report any issues experienced when using the packages to their respective maintainers.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Fedora" %}
 Bottles is available on Fedora [repositories](https://src.fedoraproject.org/rpms/bottles) thanks to [@atim](https://src.fedoraproject.org/user/atim) so you can install using `dnf`:
 
 ```bash
-$ dnf install bottles
+dnf install bottles
 ```
 {% endtab %}
 
-{% tab title="Void linux" %}
+{% tab title="Void Linux" %}
 Bottles will be available soon on Void Linux thanks to [@andry-dev](https://github.com/andry-dev). Read more [here](https://github.com/void-linux/void-packages/pull/27066).
 {% endtab %}
 
@@ -160,6 +164,22 @@ The package for openSUSE Tumbleweed can be obtained from the official [games:too
 
 {% tab title="MX Linux" %}
 This package is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab.  Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
+{% endtab %}
+
+{% tab title="OpenMandriva" %}
+Bottles is available on OpenMandriva [repositories](https://github.com/OpenMandrivaAssociation/bottles/tree/master) and can be installed using the `dnf` tool:
+
+```bash
+dnf install bottles
+```
+{% endtab %}
+
+{% tab title="ALT Linux"}
+Bottles is available on ALT Linux [Sisyphus repository](https://packages.altlinux.org/en/sisyphus/binary/bottles/noarch/). You can install the package using the `apt-get` tool provided by the system:
+
+```bash
+apt-get install bottles
+```
 {% endtab %}
 
 {% tab title="Build from source" %}
