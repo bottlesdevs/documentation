@@ -100,7 +100,7 @@ makepkg -si
 It is a portable package that should works on every distribution.
 
 {% hint style="warning" %}
-AppImage is broken, we are investigating, please use Flatpak in the meantime.
+The AppImage is broken, we are investigating, please use Flatpak in the meantime.
 {% endhint %}
 
 {% tabs %}
@@ -132,7 +132,9 @@ Move the file to a safe path where there is no risk of deleting them and double 
 Our community provides unofficial packages for installing Bottles on some distributions.
 
 {% hint style="info" %}
-While we are open to working with package maintainers from all sorts of Linux distributions to deliver the best possible experience of using Bottles, we are not responsible for the quality of the unofficial packages. Please report any issues experienced when using the packages to their respective maintainers.
+While we are open to working with package maintainers from all sorts of Linux distributions to deliver the best possible experience of using Bottles, we are not responsible for the quality of the unofficial packages.
+
+Please report any issues experienced when using the packages to their respective maintainers.
 {% endhint %}
 
 {% tabs %}
@@ -174,7 +176,7 @@ dnf install bottles
 ```
 {% endtab %}
 
-{% tab title="ALT Linux"}
+{% tab title="ALT Linux" %}
 Bottles is available on ALT Linux [Sisyphus repository](https://packages.altlinux.org/en/sisyphus/binary/bottles/noarch/). You can install the package using the `apt-get` tool provided by the system:
 
 ```bash
