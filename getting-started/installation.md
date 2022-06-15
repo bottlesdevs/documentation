@@ -99,10 +99,6 @@ makepkg -si
 
 It is a portable package that should works on every distribution.
 
-{% hint style="warning" %}
-The AppImage is broken, we are investigating, please use Flatpak in the meantime.
-{% endhint %}
-
 {% tabs %}
 {% tab title="zap⚡" %}
 First [install zap](https://github.com/srevinsaju/zap#getting-started-), then:
@@ -119,7 +115,7 @@ First you need to download the latest release from our [website](https://usebott
 chmod +x Bottles-*-x86_64.AppImage
 ```
 
-Move the file to a safe path where there is no risk of deleting them and double click on it, or launch via the terminal by typing:
+Move the file to a safe path where there is no risk of deleting them and double click on it for most file managers, or launch via the terminal by typing:
 
 ```bash
 ./Bottles-*-x86_64.AppImage
