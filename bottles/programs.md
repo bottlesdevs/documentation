@@ -1,11 +1,8 @@
 ---
 description: Find and launch all the programs installed in your bottles in one click.
 ---
-# Programs
 
-{% hint style="warning" %}
-While stable, this feature is still under development.
-{% endhint %}
+# Programs
 
 Bottles searches the bottle for the installed software and places them in the programs section of the bottle.
 
@@ -21,11 +18,11 @@ If you don't see the program you are looking for, press the Refresh button at th
 
 Then press the Play button on the right (![Bottle - Programs - Play Button](../.gitbook/assets/bottles/programs/PlayButton.png)) to start the program.
 
-#### Add сustom programs
+### Add сustom programs
 
 If Bottles cannot find your program automatically, you can manually specify the path to the executable file. To do this, click on the Add button (![Bottle - Programs - Add Button](../.gitbook/assets/bottles/programs/AddButton.png)) and select the executable file.
 
-#### Hide programs
+### Hide programs
 
 You can hide those programs that you don't want to see in the installed list. To do this, open the context menu of the program (the icon with the 3 dots) and select the "Remove from Programs" option.
 
@@ -35,7 +32,7 @@ You can switch the display mode of hidden programs using a special button ![Bott
 
 ![Bottle - Programs - All](../.gitbook/assets/bottles/programs/All.png)
 
-#### Custom arguments
+### Custom arguments
 
 Some programs may require arguments to be passed to the executable. To set them you can open the context menu and choose "Change launch options".
 
@@ -49,7 +46,6 @@ In the "Advanced options" section, you can specify the script that will be run i
 
 ![Bottle - Programs - Launch Script](../.gitbook/assets/bottles/programs/LaunchScript.png)
 
-
 #### Prefix and suffix in launch options
 
 The `%command%` placeholder can be used in the Launch Options to customize prefixes and suffixes:
@@ -58,6 +54,43 @@ The `%command%` placeholder can be used in the Launch Options to customize prefi
 my_command %command% -flag1 -flag2
 ```
 
-#### The program does not appear
+### Add programs to your Desktop
+
+To add a program in your Desktop Applications menu, choose "Add Desktop Entry" in the program's menu.
+
+#### Flatpak
+
+The Flatpak version need a special permission to generate desktop entries. To achieve this, close Bottles and open your terminal, then type:
+
+```
+flatpak override con.usebottles.bottles --filesystem=xdg-data/applications
+```
+
+then start Bottles again.
+
+We also made a video tutorial using Flatseal:
+
+{% embed url="https://www.youtube.com/watch?v=tPFNg9AU5k4" %}
+Add desktop entries using Bottles Flatpak
+{% endembed %}
+
+### Add programs in Steam
+
+Since Bottles 2022.5.28, it is possible to add programs in your Steam client, useful for Steam Deck users who want to launch their games without having to launch the Bottles GUI.
+
+To achieve this just choose "Add to Steam" in the program's menu.
+
+#### Flatpak
+
+Bottles Flatpak need special permissions to add shortcuts to Steam. Close Bottles and open your terminal, then type:
+
+```
+flatpak override con.usebottles.bottles --filesystem=~/.local/share/Steam
+flatpak override con.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
+```
+
+then start Bottles again.
+
+### The program does not appear
 
 If the program does not appear in the list even after the Refresh, it may be that it is installed in a path not monitored by Bottles. [Open an issue](https://github.com/bottlesdevs/Bottles/issues/new/choose) so that we can identify the path and add it to the list of directories.

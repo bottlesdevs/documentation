@@ -25,7 +25,7 @@ flatpak install com.github.tchx84.Flatseal
 
 At the first launch of Flatseal you need to select Bottles from the left menu, then scroll to the Filesystem section and make your choices.
 
-![Flatseal > Bottles](<../../.gitbook/assets/flatpak/expose\_directories/readme/FlatsealFilesystem (2).png>)
+![Flatseal > Bottles](<../../.gitbook/assets/flatpak/expose\_directories/readme/FlatsealFilesystem (1) (1).png>)
 
 We suggest to not expose all your system or home but manually add each directory in **Other files**. In the following example we are exposing the `~/Games` folder from our home (the default location for Lutris windows prefixes).
 
