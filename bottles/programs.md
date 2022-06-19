@@ -63,7 +63,7 @@ To add a program in your Desktop Applications menu, choose "Add Desktop Entry" i
 The Flatpak version need a special permission to generate desktop entries. To achieve this, close Bottles and open your terminal, then type:
 
 ```
-flatpak override con.usebottles.bottles --filesystem=xdg-data/applications
+flatpak override com.usebottles.bottles --filesystem=xdg-data/applications
 ```
 
 then start Bottles again.
@@ -85,8 +85,8 @@ To achieve this just choose "Add to Steam" in the program's menu.
 Bottles Flatpak need special permissions to add shortcuts to Steam. Close Bottles and open your terminal, then type:
 
 ```
-flatpak override con.usebottles.bottles --filesystem=~/.local/share/Steam
-flatpak override con.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
+flatpak override com.usebottles.bottles --filesystem=~/.local/share/Steam
+flatpak override com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
 ```
 
 then start Bottles again.
