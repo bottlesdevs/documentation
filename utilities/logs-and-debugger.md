@@ -31,7 +31,7 @@ cd /path_to_appimage
 
 This way you will receive all the logs in the Terminal (which must remain open).
 
-![Example of Bottles log in System Terminal.](<../.gitbook/assets/Screenshot from 2021-01-05 23-32-13.png>)
+![Example of Bottles log in System Terminal.](<../.gitbook/assets/Screenshot from 2021-01-05 23-32-13 (1).png>)
 
 ### Logging levels
 

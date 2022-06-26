@@ -48,6 +48,7 @@
 
 ## Flatpak
 
+* [Can't enable Steam Proton manager](flatpak/cant-enable-steam-proton-manager.md)
 * [Migrate directories to Flatpak](flatpak/migrate-bottles-to-flatpak.md)
 * [Black screen or silent crash](flatpak/black-screen-or-silent-crash.md)
 * [Expose directories](flatpak/expose-directories/README.md)
