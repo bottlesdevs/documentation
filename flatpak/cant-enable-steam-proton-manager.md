@@ -9,13 +9,13 @@ Proceed according to your Steam installation.
 #### Steam non-Flatpak
 
 ```
-flatpak override com.usebottles.bottles --filesystem=xdg-data/Steam
+flatpak override --user com.usebottles.bottles --filesystem=xdg-data/Steam
 ```
 
 #### Steam Flatpak
 
 ```
-flatpak override com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
+flatpak override --user com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
 ```
 
 then restart Bottles.
