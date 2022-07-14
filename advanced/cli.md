@@ -203,6 +203,34 @@ optional arguments:
                         Program to run
 ```
 
+#### Shell
+
+The `shell` interface can be used to run commands inside a wine shell for the given bottle:
+
+```
+usage: bottles-cli shell [-h] -b BOTTLE -i INPUT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BOTTLE, --bottle BOTTLE
+                        Bottle name
+  -i INPUT, --input INPUT
+                        Command to execute
+```
+
+#### Standalone
+
+The `standalone` interface can be used to generate a script which can be used to launch commands in a wine shell for the given bottle, without passing trough Bottles:
+
+```
+usage: bottles-cli standalone [-h] -b BOTTLE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BOTTLE, --bottle BOTTLE
+                        Bottle name
+```
+
 ### Developers mode
 
 We've added a `--json` global argument to help developers accessing stuff from the Bottles' CLI. It can be used with any interface and will return the output in JSON format. Some examples:
