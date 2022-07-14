@@ -161,6 +161,27 @@ optional arguments:
                         Change LatencyFleX (e.g. '--latencyflex latencyflex-v0.1.0')
 ```
 
+#### Add
+
+The `add` interface can be used to add new programs to a bottle:
+
+```
+usage: bottles-cli add [-h] -b BOTTLE -n NAME -p PATH [-l LAUNCH_OPTIONS] [--no-dxvk] [--no-vkd3d]
+                       [--no-dxvk-nvapi]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BOTTLE, --bottle BOTTLE
+                        Bottle name
+  -n NAME, --name NAME  Program name
+  -p PATH, --path PATH  Program path
+  -l LAUNCH_OPTIONS, --launch-options LAUNCH_OPTIONS
+                        Program launch options
+  --no-dxvk             Disable DXVK for the program
+  --no-vkd3d            Disable VKD3D for the program
+  --no-dxvk-nvapi       Disable DXVK Nvapi for the program
+```
+
 #### New
 
 The `new` interface can be used to create a new bottle.
