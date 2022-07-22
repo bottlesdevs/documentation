@@ -69,31 +69,11 @@ flatpak run com.usebottles.bottles
 {% endtab %}
 {% endtabs %}
 
-### AUR
+### Snap
 
-Bottles is available on AUR with 2 different packages:
-
-* `bottles` (official) provide the latest stable build
-* `bottles-git` (unofficial) the latest commit from the GitHub repository
-
-{% tabs %}
-{% tab title="AUR helper" %}
-Bottles can be installed using an AUR helper like `yay` or `paru`:
-
-```bash
-yay -S bottles # or bottles-git
-paru -S bottles # or bottles-git
-```
-{% endtab %}
-
-{% tab title="Traditional way" %}
-```bash
-git clone https://aur.archlinux.org/packages/bottles # or bottles-git
-cd bottles # or bottles-git
-makepkg -si
-```
-{% endtab %}
-{% endtabs %}
+{% hint style="warning" %}
+Currently not available, we are working on it. Please use Flatpak in the meantime.
+{% endhint %}
 
 ### AppImage
 
@@ -159,13 +139,11 @@ nix-env -iA nixos.bottles
 {% endtab %}
 
 {% tab title="Tumbleweed" %}
-
-The package for openSUSE Tumbleweed can be obtained from the official [games:tools](https://software.opensuse.org/download.html?project=games%3Atools&package=bottles) repository.
-
+The package for openSUSE Tumbleweed can be obtained from the official [games:tools](https://software.opensuse.org/download.html?project=games%3Atools\&package=bottles) repository.
 {% endtab %}
 
 {% tab title="MX Linux" %}
-This package is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab.  Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
+This package is maintained by [@SwampRabbit](https://github.com/SwampRabbit) and can currently be installed on MX-21 by using MX Package Installer - MX Test Repo tab. Package status thread is [here](https://forum.mxlinux.org/viewtopic.php?t=68038).
 {% endtab %}
 
 {% tab title="OpenMandriva" %}
@@ -208,6 +186,23 @@ mkdir build
 meson build && cd build
 ninja -j$(nproc)
 ninja install
+```
+{% endtab %}
+
+{% tab title="AUR" %}
+Bottles can be installed using an AUR helper like `yay` or `paru`:
+
+```bash
+yay -S bottles # or bottles-git
+paru -S bottles # or bottles-git
+```
+
+or using makepkg:
+
+```
+git clone https://aur.archlinux.org/packages/bottles # or bottles-git
+cd bottles # or bottles-git
+makepkg -si
 ```
 {% endtab %}
 {% endtabs %}
