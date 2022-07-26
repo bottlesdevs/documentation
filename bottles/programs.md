@@ -78,7 +78,7 @@ Add desktop entries using Bottles Flatpak
 
 Since Bottles 2022.5.28, it is possible to add programs in your Steam client, useful for Steam Deck users who want to launch their games without having to launch the Bottles GUI.
 
-To achieve this just choose "Add to Steam" in the program's menu.
+To achieve this just choose "Add to Steam" in the program's menu and restart Steam.
 
 #### Flatpak
 
