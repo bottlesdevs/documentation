@@ -1,14 +1,10 @@
 ---
-description: We offer Bottles in different packages, make your choice!
+description: We currently only offer Bottles as a flatpak package
 ---
 
 # Installation
 
-Bottles is officially provided as Flatpak.
-
-## Flatpak
-
-This is the only fully sandboxed version. It bundles all the needed dependencies and tools and works on all distributions [supported by Flatpak](https://flatpak.org/setup/).
+The Flatpak package is the only fully sandboxed version. It bundles all the needed dependencies and tools and works on most distributions [supported by Flatpak](https://flatpak.org/setup/).
 
 {% hint style="info" %}
 This is the most supported and tested release of Bottles.
