@@ -4,7 +4,7 @@ description: Whether you are a developer or a log-hunting user, debugging is the
 
 # Logs & Debugger
 
-There are two way to catch out the logs from Bottles:
+There are two ways to catch out the logs from Bottles:
 
 * using your System Terminal
 * using the Wine Debugger Console
