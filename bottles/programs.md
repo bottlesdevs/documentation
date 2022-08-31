@@ -63,7 +63,7 @@ To add a program in your Desktop Applications menu, choose "Add Desktop Entry" i
 The Flatpak version need a special permission to generate desktop entries. To achieve this, close Bottles and open your terminal, then type:
 
 ```
-flatpak override com.usebottles.bottles --filesystem=xdg-data/applications
+flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 ```
 
 then start Bottles again.
