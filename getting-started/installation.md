@@ -46,7 +46,7 @@ Download the latest bottles source from GitHub:
 ```bash
 wget -O bottles-source.zip https://github.com/bottlesdevs/Bottles/archive/main.zip
 unzip bottles-source.zip
-cd bottles-source
+cd Bottles-main 
 ```
 
 Build can be performed using `flatpak-builder` (installable using your distribution package manager like apt, dnf, ..):
