@@ -85,8 +85,8 @@ To achieve this just choose "Add to Steam" in the program's menu and restart Ste
 Bottles Flatpak need special permissions to add shortcuts to Steam. Close Bottles and open your terminal, then type:
 
 ```
-flatpak override com.usebottles.bottles --filesystem=~/.local/share/Steam
-flatpak override com.usebottles.bottles --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
+flatpak override com.usebottles.bottles --user --filesystem=~/.local/share/Steam
+flatpak override com.usebottles.bottles --user --filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam
 ```
 
 then start Bottles again.
