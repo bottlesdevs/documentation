@@ -26,7 +26,7 @@ To use the installers you obviously need a bottle, so select the one you are int
 
 ![Bottle - Installers](../.gitbook/assets/bottles/installers/Main.png)
 
-Choose the installer you want and press the download icon. It will automatically configure your bottle and install the program. When the installation finish, you will see a new entry in your bottle's programs list.
+Choose the installer you want and press the download icon. It will automatically configure your bottle and install the program. When the installation has been finished, you will see a new entry in your bottle's programs list.
 
 Each installer came with its maintainer review, you can access it from the context menu or from its dedicated page on the [apps catalog](https://usebottles.com/appstore/).
 
