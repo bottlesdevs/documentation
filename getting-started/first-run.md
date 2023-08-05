@@ -41,7 +41,7 @@ Below is a video showing the process of first boot, first bottle creation and ru
 
 {% embed url="https://www.youtube.com/watch?feature=youtu.be&v=JQyOGtPQ644" %}
 
-## Offline? You do not have time?
+## Offline? No time for setup?
 
 Are you offline or don't want to download it now? No problem.
 
