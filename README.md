@@ -1,5 +1,5 @@
 ---
-description: Thanks for choosing Bottles for managing your wineprefixes on Linux!
+description: Thank you for choosing Bottles to run your favorite Windows apps on Linux!
 ---
 
 # Welcome

@@ -1,5 +1,5 @@
 ---
-description: Bottles is available as a Flatpak!
+description: Bottles is available from Flathub!
 ---
 
 # Installation
