@@ -1,5 +1,5 @@
 ---
-description: We currently only offer Bottles as a flatpak package
+description: Bottles is available as a Flatpak!
 ---
 
 # Installation
