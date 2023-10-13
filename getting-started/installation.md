@@ -49,9 +49,10 @@ unzip bottles-source.zip
 cd Bottles-main 
 ```
 
-Build can be performed using `flatpak-builder` (installable using your distribution package manager like apt, dnf, ..):
+Build can be performed using `flatpak-builder` (which you can get on your distribution's package manager, or the `org.flatpak.Builder` package from Flathub):
 
 ```bash
+# replace `flatpak-builder` with `flatpak run org.flatpak.Builder` if flatpak-builder is installed from Flathub
 flatpak-builder --repo=bottles --force-clean --user build-dir com.usebottles.bottles.yml
 flatpak remote-add --user bottles bottles --no-gpg-verify
 flatpak install --user bottles com.usebottles.bottles
