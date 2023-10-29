@@ -20,7 +20,7 @@ flatpak override --user --filesystem="path" com.usebottles.bottles
 or to manage more complex cases through a GUI we can use an external program named [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal), it can be easily installed from Flathub using a compatible store like GNOME Software, elementary Appcenter or Discover. It is also possible to install through the command line:
 
 ```bash
-flatpak install com.github.tchx84.Flatseal
+flatpak install flathub com.github.tchx84.Flatseal
 ```
 
 At the first launch of Flatseal you need to select Bottles from the left menu, then scroll to the Filesystem section and make your choices.
