@@ -1,40 +1,31 @@
 ---
-description: In Bottles we use environments for creating new bottles.
+description: Bottles use environments for creating new bottles.
 ---
 # Environments
 
-Bottles Environments offers a package of configurations and dependencies to enhance support for Windows software in some contexts.
+Environments offer pre-made configurations to enhance support for specific types of Windows apps.
 
-We offer the following default Environments:
+Bottles offer the following default environments:
 
 * **Gaming** for games
-* **Application** for... applications
-* **Custom** is just a clear workspace where you can start making experiments
+* **Application** for applications
+* **Custom** is a clean environment for experimenting with different configurations.
 
 ![Environment selection](<../.gitbook/assets/getting_started/environments/Custom.png>)
 
 ### Gaming environment
 
-This environment comes with the following configuration:
+This environment comes with the Soda runner, with DXVK and VKD3D for translating DirectX 9 to 12 games to Vulkan. Direct access to NVIDIA GPUs through NVAPI is also supported. The environment uses dedicated graphics cards (called in-app as `Discrete graphics`) to enhance performance on devices with multiple GPUs. By default, Esync is used to synchronize and improve performance, though on supported kernels, you should switch this to Fsync for better results.
 
-* DXVK enabled
-* VKD3D disabled
-* Esync enabled
-* Discrete Graphics Card enabled (useful for laptops with hybrid graphics setup)
-* PulseAudio latency forced to 60ms for better audio quality in-game
-* d3dx9, d3dcompiler_43, d3dcompiler_47 dlls
-* Microsoft Line Services
-* Arial, Times and Courier fonts
+You can use LatencyFleX to reduce input lag. DLSS (NVIDIA GPUs only), FidelityFX, and vkBasalt post-processing can be configured to further enhance performance. You can also set GameMode and game file preloading for this.
 
 ### Application environment
 
-This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications (such as 3D modeling, Video Editing and drawing programs) but also office and productivity software. It will also install Arial, Times and Courier fonts, and the Wine mono, replacing the .NET Framework.
+This environment is a less intensive version of the gaming environment. Hardware acceleration is supported to ensure a seamless multimedia experience. Common fonts are preinstalled and Wine's Mono is installed in place of the .NET Framework.
 
 ### Custom environment
 
-If you are a nerd (even more nerd) then this is the environment for you! 
-
-This is a clear environment where you can experiment, test and configure your bottle! You can also choose which runner to use for your experiments, just install more from the Bottles Preferences page.
+This is a clear environment where you can experiment, test and configure your bottle. You can also choose which runner to use for your experiments, just install more from the preferences page.
 
 ## Environment preferences
 

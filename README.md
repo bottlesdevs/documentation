@@ -1,27 +1,28 @@
 ---
-description: Thanks for choosing Bottles for managing your wineprefixes on Linux!
+description: Thank you for choosing Bottles to run your favorite Windows apps on Linux!
 ---
 
 # Welcome
 
 {% hint style="info" %}
-This documentation is still being written. Recommend us any improvements by clicking the GitHub icon at the top right of each page.
+We are still rewriting this documentation. Contribute improvements by clicking the three-dot button > Edit on GitHub on the top right of the page.
 {% endhint %}
 
 ## What is Bottles?
 
-Bottles is an application that allows you to easily manage Windows prefixes on your favorite Linux distribution.
+Bottles is an app for easily managing Windows prefixes on your Linux device.
 
-## Windows prefixes?
 
-Windows prefixes are environments where it is possible to run Windows software using runners. Runners are compatibility layers capable of running Windows applications on a Linux system.
+## What are "Windows prefixes"?
 
-In Bottles we call these environments bottles.
+Windows prefixes are the environment where you can run Windows apps with runners. Runners are compatibility layers that allow Windows apps to run on a Linux device.
+
+In Bottles, these environments are called "bottles".
 
 ## Where to start?
 
-It's simple. Start by [installing](getting-started/installation.md) Bottles on your Linux distribution.
+It's simple. Just [install](getting-started/installation.md) Bottles on your Linux device.
 
 ## First run
 
-Already installed? Let's go with the [first boot](getting-started/first-run.md) of Bottles!
+Already installed? Let's go see [Bottles' first run](getting-started/first-run.md)!

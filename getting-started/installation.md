@@ -1,13 +1,13 @@
 ---
-description: We currently only offer Bottles as a flatpak package
+description: Bottles is available from Flathub!
 ---
 
 # Installation
 
-The Flatpak package is the only fully sandboxed version. It bundles all the needed dependencies and tools and works on most distributions [supported by Flatpak](https://flatpak.org/setup/).
+The Flatpak package works on most Linux distributions [supported by Flatpak](https://flatpak.org/setup/). It is fully sandboxed and comes with the necessary tools and dependencies.
 
 {% hint style="info" %}
-This is the most supported and tested release of Bottles.
+This is the most supported and tested way of installing Bottles.
 {% endhint %}
 
 {% tabs %}
@@ -49,9 +49,10 @@ unzip bottles-source.zip
 cd Bottles-main 
 ```
 
-Build can be performed using `flatpak-builder` (installable using your distribution package manager like apt, dnf, ..):
+Build can be performed using `flatpak-builder` (which you can get on your distribution's package manager, or the `org.flatpak.Builder` package from Flathub):
 
 ```bash
+# replace `flatpak-builder` with `flatpak run org.flatpak.Builder` if flatpak-builder is installed from Flathub
 flatpak-builder --repo=bottles --force-clean --user build-dir com.usebottles.bottles.yml
 flatpak remote-add --user bottles bottles --no-gpg-verify
 flatpak install --user bottles com.usebottles.bottles
