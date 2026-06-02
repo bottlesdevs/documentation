@@ -25,7 +25,7 @@ Once the key concepts of Bottles have been introduced, some important stuff (\~ 
 {% hint style="info" %}
 We cannot offer these files with Bottles as these have different release cycles.
 
-**It is not our limit, it is how it must be done.** Downloading these files with the package means increasing the release frequency (even several times a day) or providing Bottles with older versions of these components. What we have chosen is the correct way to be able to offer the same experience to all distribution formats and to ensure that we offer the latest version of the components to the user on first launch.
+**It is not our limitation, it is how it must be done.** Downloading these files with the package means increasing the release frequency (even several times a day) or providing Bottles with older versions of these components. What we have chosen is the correct way to be able to offer the same experience to all distribution formats and to ensure that we offer the latest version of the components to the user on first launch.
 {% endhint %}
 
 ![Downloading the first runner](<../.gitbook/assets/getting_started/first_run/Downloading.png>)
