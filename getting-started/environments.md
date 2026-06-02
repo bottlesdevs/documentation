@@ -28,7 +28,7 @@ This environment comes with the following configuration:
 
 ### Application environment
 
-This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications (such as 3D modeling, Video Editing and drawing programs) but also office and productivity software. It will also install Arial, Times and Courier fonts, and the Wine mono, replacing the .NET Framework.
+This environment enables DXVK and VKD3D by default, ensuring support for multimedia applications (such as 3D modeling, Video Editing and drawing programs) but also office and productivity software. It will also install Arial, Times and Courier fonts, and Wine Mono, replacing the .NET Framework.
 
 ### Custom environment
 
