@@ -20,8 +20,8 @@ In Bottles we call these environments bottles.
 
 ## Where to start?
 
-It's simple. Start by [installing](getting-started/installation.md) Bottles on your Linux distribution.
+It's simple. Start by [installing](getting-started/installation) Bottles on your Linux distribution.
 
 ## First run
 
-Already installed? Let's go with the [first boot](getting-started/first-run.md) of Bottles!
+Already installed? Let's go with the [first boot](getting-started/first-run) of Bottles!
